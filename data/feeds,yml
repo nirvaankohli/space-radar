@@ -1,0 +1,68 @@
+defaults:
+  request:
+    timeout_sec: 8
+    headers:
+      User-Agent: SpaceRadar/1.0 (+https://github.com/you/space-radar)
+  parse:
+    prefer_fulltext: true    
+    max_items_per_feed: 50
+
+sources:
+  - name: NASA
+    url: https://www.nasa.gov/news-release/feed/
+    topics: [earthobs, missions]
+  - name: NASA Blogs
+    url: https://blogs.nasa.gov/feed/
+    topics: [missions]
+  - name: JPL
+    url: https://www.jpl.nasa.gov/feed/news
+    topics: [missions, mars, lunar]
+  - name: ESA
+    url: https://www.esa.int/rssfeed/Our_Activities
+    topics: [missions, earthobs]
+  - name: ESA Webb
+    url: https://esawebb.org/feed/news/
+    topics: [jwst, exoplanets]
+  - name: SpaceNews
+    url: https://spacenews.com/feed/
+    topics: [industry, launch]
+  - name: Spaceflight Now
+    url: https://spaceflightnow.com/feed/
+    topics: [launch]
+  - name: NOAA NESDIS
+    url: https://www.nesdis.noaa.gov/news/rss.xml
+    topics: [earthobs, weather]
+  - name: Nature Astronomy
+    url: https://www.nature.com/natastron/news.rss
+    topics: [research]
+  - name: arXiv astro-ph.EP
+    url: https://export.arxiv.org/rss/astro-ph.EP
+    topics: [exoplanets, research]
+  - name: arXiv astro-ph.IM
+    url: https://export.arxiv.org/rss/astro-ph.IM
+    topics: [instrumentation, research]
+  - name: arXiv astro-ph.GA
+    url: https://export.arxiv.org/rss/astro-ph.GA
+    topics: [galaxies, research]
+  - name: Planetary Society
+    url: https://www.planetary.org/feeds/press-releases
+    topics: [missions]
+  - name: SpaceX Updates
+    url: https://www.spacex.com/updates.xml
+    topics: [launch, industry]
+  - name: CNSA Watch
+    url: https://china-spaceflight.com/feed/
+    topics: [launch, missions]
+
+# Optional per-domain HTML selectors if RSS lacks full text
+selectors:
+  # key must match "name" above
+  SpaceNews:
+    article: "article"
+    content: "article .post-content p"
+  Spaceflight Now:
+    article: "article"
+    content: "article .entry-content p"
+  Nature Astronomy:
+    article: "article"
+    content: "article .c-article-body p"

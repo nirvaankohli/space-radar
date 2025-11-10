@@ -11,6 +11,7 @@ If you do not want to read the following in depth description of how ranking is 
 That being said, the following steps are the ones that happen when ranking stories:
 
 ### 1. Base Score Per Story
+>
 > Each story(represented by `s`) has a item: (title, text, source, ts). It also has a Topic Set(represented by `T`)
 >
 > #### Components
@@ -30,9 +31,11 @@ That being said, the following steps are the ones that happen when ranking stori
 > ```
 > S = clamp(S0 + B - penalties, 0, 1)
 >```
+>
 
 ### 2. Diversity-aware re-rank (MMR-style)
 
+> 
 > Objective: select top `K` stories that are high-score and non-redundant.
 > The following algo is to be iterated until `K` is eventually picked:
 > ```
@@ -41,4 +44,5 @@ That being said, the following steps are the ones that happen when ranking stori
 > Key/Legend
 > * λ = 0.7
 > * sim = cosine between story embeddings
-> * Enforce topic quotas: at most q_topic per day (e.g., <40% “launch”, <40% “jwst”).*
+> * Enforce topic quotas: at most q_topic per day (e.g., <40% “launch”, <40% “jwst”).
+>
