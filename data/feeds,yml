@@ -2,7 +2,7 @@ defaults:
   request:
     timeout_sec: 8
     headers:
-      User-Agent: SpaceRadar/1.0 (+https://github.com/you/space-radar)
+      User-Agent: SpaceRadar/1.0
   parse:
     prefer_fulltext: true    
     max_items_per_feed: 50
