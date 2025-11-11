@@ -73,6 +73,14 @@ class fetcher:
         
         outputs.append({"url": url, "title": title, "ts": ts, "text": text})
 
-    def in_list(self, item: str, lst: List[str]) -> bool:
+    def in_lists(self) -> List[Dict[str, Any]]:
 
-        return item in lst
+        all_items = []
+
+        for feed_url in self.feed_urls:
+
+            items = self.pull(feed_url)
+            all_items.extend(items)
+
+        return all_items
+    
