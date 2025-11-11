@@ -81,24 +81,41 @@ class processer:
             )
 
         return sources_raw
-    
+
     def get_articales(self, raw_data=None):
 
         if raw_data is None:
+
+            raw_data = self.fetch_sources_raw()
+
+        articles = []
+
+        for source_data in raw_data:
+
+            for article in source_data.get("articles", []):
+
+                articles.append(
+                    {
+                        "source": source_data.get("source", "Unknown"),
+                        "source_url": source_data.get("url", ""),
+                        "article_url": article.get("url", ""),
+                        "title": article.get("title", ""),
+                        "timestamp": article.get("ts", ""),
+                        "text": article.get("text", ""),
+                    }
+                )
+
+        return articles
 
 
 if __name__ == "__main__":
 
     proc = processer()
 
-    with open("example.json", "w", encoding="utf-8") as f:
+    print("getting sources...")
+    hi = (proc.get_articales())
 
-        print("Writing example.json...")
-
+    with open("sample_articles.json", "w", encoding="utf-8") as f:
         import json
 
-        print("Fetched sources:", proc.list_sources())
-
-        json.dump(proc.fetch_sources_raw(), f, indent=2, ensure_ascii=False)
-
-        print("Done.")
+        json.dump(hi, f, ensure_ascii=False, indent=2)
