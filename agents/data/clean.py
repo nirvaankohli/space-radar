@@ -5,6 +5,7 @@ from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 import datetime as dt
 from dateutil import parser as dateparser
 import json
+import datetime
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 LIB_DIR = ROOT_DIR / "data" / "agents"
@@ -309,7 +310,7 @@ if __name__ == "__main__":
     
         import json
 
-    
+
         with open(
     
             ROOT_DIR / "data" / "agents" / "example.json", "r", encoding="utf-8"
@@ -335,8 +336,11 @@ if __name__ == "__main__":
                         "text": article.get("text", ""),
                     }
                 )
+    # get articles
 
     cleaned_articles = cleaner_instance.process_articles(raw_articles)
+    
+    # append ids to index file
 
     ids = []
 
@@ -344,37 +348,85 @@ if __name__ == "__main__":
 
         ids.append(i["id"])
 
+    # u can change path
+
     db_path = ROOT_DIR / "data" / "db"
 
     db_path.mkdir(parents=True, exist_ok=True)
     index_file = db_path / "index.json"
 
     try:
+
         if index_file.exists():
+        
             with open(index_file, "r", encoding="utf-8") as f:
+
+                og_data = json.load(f) or {}
                 data = json.load(f) or {}
+        
         else:
+            
+            og_data = {}
             data = {}
+    
     except Exception:
+    
         data = {}
 
     if "id" in data and isinstance(data["id"], list):
+
         key = "id"
+
     elif "ids" in data and isinstance(data["ids"], list):
+
         key = "ids"
+
     else:
+
         key = "id"
         data.setdefault(key, [])
 
     if not isinstance(data.get(key), list):
+
         data[key] = list(data.get(key)) if data.get(key) is not None else []
 
     existing = set(data[key])
+
     for i in ids:
+
         if i not in existing:
+
             data[key].append(i)
             existing.add(i)
 
     with open(index_file, "w", encoding="utf-8") as f:
 
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # now by date db
+
+    date_folder_path = db_path / "by_date"
+    today_data = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    date_path = date_folder_path / f"{today_data}.json"
+
+    if date_folder_path.exists() is False:
+
+        date_folder_path.mkdir(parents=True, exist_ok=True)
+
+    if not os.path.isfile(date_path):
+
+        with open(date_path, "w", encoding="utf-8") as f:
+
+            json.dump([], f, ensure_ascii=False, indent=2)
+
+    else:
+
+        with open(date_path, "r", encoding="utf-8") as f:
+
+            existing_data = json.load(f)
+
+    try:
+
+        for i in og_data["id"]:
+
+            
