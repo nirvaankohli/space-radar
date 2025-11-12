@@ -303,30 +303,26 @@ if __name__ == "__main__":
     try:
 
         raw_articles = proc.get_articales()
-    
+
     except Exception as e:
-    
+
         print(f"Failed to fetch articles, using example data: {e}")
-    
+
         import json
 
-
         with open(
-    
             ROOT_DIR / "data" / "agents" / "example.json", "r", encoding="utf-8"
-    
         ) as f:
-    
+
             example_data = json.load(f)
-    
+
         raw_articles = []
-    
+
         for source in example_data:
-    
+
             for article in source.get("articles", []):
-    
+
                 raw_articles.append(
-    
                     {
                         "source": source.get("source", "Unknown"),
                         "source_url": source.get("url", ""),
@@ -336,97 +332,122 @@ if __name__ == "__main__":
                         "text": article.get("text", ""),
                     }
                 )
+
     # get articles
 
     cleaned_articles = cleaner_instance.process_articles(raw_articles)
-    
-    # append ids to index file
 
-    ids = []
-
-    for i in cleaned_articles:
-
-        ids.append(i["id"])
-
-    # u can change path
+    # set up/init paths
 
     db_path = ROOT_DIR / "data" / "db"
-
     db_path.mkdir(parents=True, exist_ok=True)
     index_file = db_path / "index.json"
 
+    # load existing index data
+
     try:
+
+        # read & create if not exist
 
         if index_file.exists():
         
             with open(index_file, "r", encoding="utf-8") as f:
-
+        
                 og_data = json.load(f) or {}
-                data = json.load(f) or {}
         
         else:
-            
+        
             og_data = {}
-            data = {}
-    
     except Exception:
-    
-        data = {}
+        
+        og_data = {}
 
-    if "id" in data and isinstance(data["id"], list):
+    # key for ids
 
+    if "id" in og_data and isinstance(og_data["id"], list):
         key = "id"
-
-    elif "ids" in data and isinstance(data["ids"], list):
-
+    elif "ids" in og_data and isinstance(og_data["ids"], list):
         key = "ids"
-
     else:
-
         key = "id"
-        data.setdefault(key, [])
 
-    if not isinstance(data.get(key), list):
+    # Get existing ids
 
-        data[key] = list(data.get(key)) if data.get(key) is not None else []
+    existing_ids_before = set(og_data.get(key, []))
 
-    existing = set(data[key])
+    # find new articles (not in original index)
+    new_articles = []
+    new_ids = []
 
-    for i in ids:
+    for article in cleaned_articles:
+        if article["id"] not in existing_ids_before:
+            new_articles.append(article)
+            new_ids.append(article["id"])
 
-        if i not in existing:
+    # only proceed if there are new articles
 
-            data[key].append(i)
-            existing.add(i)
+    if new_articles:
 
-    with open(index_file, "w", encoding="utf-8") as f:
+        # update index with new IDs
 
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        updated_data = og_data.copy()
+        updated_data.setdefault(key, [])
+        if not isinstance(updated_data[key], list):
+            updated_data[key] = (
+                list(updated_data[key]) if updated_data[key] is not None else []
+            )
 
-    # now by date db
+        updated_data[key].extend(new_ids)
 
-    date_folder_path = db_path / "by_date"
-    today_data = datetime.datetime.utcnow().strftime("%Y-%m-%d")
-    date_path = date_folder_path / f"{today_data}.json"
+        with open(index_file, "w", encoding="utf-8") as f:
+            json.dump(updated_data, f, ensure_ascii=False, indent=2)
 
-    if date_folder_path.exists() is False:
-
+        # add new articles to date-based file
+        
+        date_folder_path = db_path / "by_date"
         date_folder_path.mkdir(parents=True, exist_ok=True)
 
-    if not os.path.isfile(date_path):
+        today_date = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+        date_path = date_folder_path / f"{today_date}.json"
+
+        # load existing date file or create empty list
+        
+        try:
+
+            if date_path.exists():
+
+                with open(date_path, "r", encoding="utf-8") as f:
+            
+                    existing_date_data = json.load(f)
+            
+            else:
+            
+                existing_date_data = []
+        
+        except Exception:
+        
+            existing_date_data = []
+
+        # add new articles to date file
+        
+        existing_date_data.extend(new_articles)
 
         with open(date_path, "w", encoding="utf-8") as f:
 
-            json.dump([], f, ensure_ascii=False, indent=2)
+            json.dump(existing_date_data, f, ensure_ascii=False, indent=2)
+
+        print(f"Added {len(new_articles)} new articles to {today_date}.json")
 
     else:
+        print("No new articles to add")
 
-        with open(date_path, "r", encoding="utf-8") as f:
 
-            existing_data = json.load(f)
+    output_file = ROOT_DIR / "cleaned_articles.json"
 
-    try:
+    with open(output_file, "w", encoding="utf-8") as f:
+        
+        json.dump({"articles": cleaned_articles}, f, ensure_ascii=False, indent=2)
 
-        for i in og_data["id"]:
-
-            
+    print(f"Total cleaned articles: {len(cleaned_articles)}")
+    print(f"New articles added: {len(new_articles)}")
+    print(f"Output saved to: {output_file}")
