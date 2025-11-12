@@ -4,6 +4,7 @@ import hashlib, time, re, os
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 import datetime as dt
 from dateutil import parser as dateparser
+import json
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 LIB_DIR = ROOT_DIR / "data" / "agents"
@@ -337,8 +338,43 @@ if __name__ == "__main__":
 
     cleaned_articles = cleaner_instance.process_articles(raw_articles)
 
-    with open("cleaned_articles.json", "w", encoding="utf-8") as f:
+    ids = []
 
-        import json
+    for i in cleaned_articles:
 
-        json.dump({"articles": cleaned_articles}, f, ensure_ascii=False, indent=4)
+        ids.append(i["id"])
+
+    db_path = ROOT_DIR / "data" / "db"
+
+    db_path.mkdir(parents=True, exist_ok=True)
+    index_file = db_path / "index.json"
+
+    try:
+        if index_file.exists():
+            with open(index_file, "r", encoding="utf-8") as f:
+                data = json.load(f) or {}
+        else:
+            data = {}
+    except Exception:
+        data = {}
+
+    if "id" in data and isinstance(data["id"], list):
+        key = "id"
+    elif "ids" in data and isinstance(data["ids"], list):
+        key = "ids"
+    else:
+        key = "id"
+        data.setdefault(key, [])
+
+    if not isinstance(data.get(key), list):
+        data[key] = list(data.get(key)) if data.get(key) is not None else []
+
+    existing = set(data[key])
+    for i in ids:
+        if i not in existing:
+            data[key].append(i)
+            existing.add(i)
+
+    with open(index_file, "w", encoding="utf-8") as f:
+
+        json.dump(data, f, ensure_ascii=False, indent=2)
