@@ -439,13 +439,14 @@ if __name__ == "__main__":
         print(f"Added {len(new_articles)} new articles to {today_date}.json")
 
     else:
+        
         print("No new articles to add")
 
 
     output_file = ROOT_DIR / "cleaned_articles.json"
 
     with open(output_file, "w", encoding="utf-8") as f:
-        
+
         json.dump({"articles": cleaned_articles}, f, ensure_ascii=False, indent=2)
 
     print(f"Total cleaned articles: {len(cleaned_articles)}")
