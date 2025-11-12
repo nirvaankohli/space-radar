@@ -1,5 +1,19 @@
-import from_yml
-import fetch
+import importlib.util
+import hashlib
+from pathlib import Path
+
+LIB_DIR = Path(__file__).parent
+LIB_NAME = "fetch"
+LIB2_NAME = "from_yml"
+
+spec = importlib.util.spec_from_file_location(LIB_NAME, LIB_DIR / f"{LIB_NAME}.py")
+fetch = importlib.util.module_from_spec(spec)
+
+spec1 = importlib.util.spec_from_file_location(LIB2_NAME, LIB_DIR / f"{LIB2_NAME}.py")
+from_yml = importlib.util.module_from_spec(spec1)
+
+spec.loader.exec_module(fetch)
+spec1.loader.exec_module(from_yml)
 
 
 class processer:
@@ -113,7 +127,7 @@ if __name__ == "__main__":
     proc = processer()
 
     print("getting sources...")
-    hi = (proc.get_articales())
+    hi = proc.get_articales()
 
     with open("sample_articles.json", "w", encoding="utf-8") as f:
         import json
