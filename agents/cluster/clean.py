@@ -7,7 +7,7 @@ from dateutil import parser as dateparser
 import json
 import datetime
 
-ROOT_DIR = Path(__file__).parent.parent.parent
+ROOT_DIR = Path(__file__).parent.parent.parent.parent
 LIB_DIR = ROOT_DIR / "data" / "agents"
 LIB_NAME = "process_yml"
 
@@ -350,16 +350,16 @@ if __name__ == "__main__":
         # read & create if not exist
 
         if index_file.exists():
-        
+
             with open(index_file, "r", encoding="utf-8") as f:
-        
+
                 og_data = json.load(f) or {}
-        
+
         else:
-        
+
             og_data = {}
     except Exception:
-        
+
         og_data = {}
 
     # key for ids
@@ -403,7 +403,7 @@ if __name__ == "__main__":
             json.dump(updated_data, f, ensure_ascii=False, indent=2)
 
         # add new articles to date-based file
-        
+
         date_folder_path = db_path / "by_date"
         date_folder_path.mkdir(parents=True, exist_ok=True)
 
@@ -411,25 +411,25 @@ if __name__ == "__main__":
         date_path = date_folder_path / f"{today_date}.json"
 
         # load existing date file or create empty list
-        
+
         try:
 
             if date_path.exists():
 
                 with open(date_path, "r", encoding="utf-8") as f:
-            
+
                     existing_date_data = json.load(f)
-            
+
             else:
-            
+
                 existing_date_data = []
-        
+
         except Exception:
-        
+
             existing_date_data = []
 
         # add new articles to date file
-        
+
         existing_date_data.extend(new_articles)
 
         with open(date_path, "w", encoding="utf-8") as f:
@@ -439,9 +439,8 @@ if __name__ == "__main__":
         print(f"Added {len(new_articles)} new articles to {today_date}.json")
 
     else:
-        
-        print("No new articles to add")
 
+        print("No new articles to add")
 
     output_file = ROOT_DIR / "cleaned_articles.json"
 
