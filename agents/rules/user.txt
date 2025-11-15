@@ -1,19 +1,199 @@
-You are given a primary article and related article titles from the same news cluster.
+You are given a primary article and related article titles(might only be one) from the same news cluster.
 Your task is to analyze and summarize the content for space enthusiasts.
 
-Generate exactly three components:
+Generate exactly four components:
 
 1. SUMMARY: Write a concise 2-3 sentence summary (maximum 550 characters)
-- Focus on the key facts and findings
-- Use accessible language for general readers
+    - Focus on the key facts and findings
+    - Use accessible language for general readers
 
 2. TOPICS: Assign 1-3 relevant topic labels
-- Use lowercase snake_case format
-- Examples: "skywatching", "mars_exploration", "satellite_technology", "space_policy", "astronaut_missions", "scientific_discovery"
+    - Use lowercase snake_case format
+    - Use multiple words if needed
+    - The following list of words are the ones you need to use:
+    "topics": [
+"history_of_astronomy",
+"foundations_of_astronomy",
+"celestial_coordinate_systems",
+"astronomical_timekeeping_and_calendars",
+"spherical_astronomy",
+"observational_astronomy",
+"theoretical_astrophysics",
+"astrostatistics_and_data_analysis",
+"computational_astrophysics",
+
+"solar_system_overview",
+"solar_physics",
+"solar_structure_and_evolution",
+"solar_activity_sunspots_flares_cmes",
+"heliosphere_and_solar_wind",
+"space_weather",
+
+"planets_of_the_solar_system",
+"planetary_geology_and_geophysics",
+"planetary_atmospheres",
+"planetary_magnetospheres",
+"planetary_rings",
+"planetary_climate_and_weather",
+"planetary_surface_processes",
+
+"dwarf_planets",
+"natural_satellites_moons",
+"small_solar_system_bodies",
+"asteroids",
+"near_earth_objects",
+"comets",
+"meteoroids_meteors_and_meteorites",
+"trans_neptunian_objects",
+"kuiper_belt",
+"oort_cloud",
+
+"exoplanets",
+"exoplanet_detection_methods",
+"exoplanet_atmospheres",
+"planetary_system_formation_and_evolution",
+"planetary_habitability",
+
+"astrobiology",
+"origin_of_life_in_the_universe",
+"biosignatures_and_life_detection",
+"habitable_zones",
+
+"stars",
+"stellar_structure_and_evolution",
+"star_formation",
+"protostars_and_young_stellar_objects",
+"stellar_nucleosynthesis",
+"stellar_populations",
+"stellar_spectra_and_classification",
+"variable_stars",
+"binary_and_multiple_star_systems",
+"star_clusters_open_and_globular",
+
+"compact_objects",
+"white_dwarfs",
+"neutron_stars_and_pulsars",
+"black_holes_stellar_mass",
+"black_holes_supermassive",
+"accretion_disks",
+"x_ray_binaries",
+
+"supernovae",
+"novae_and_other_stellar_explosions",
+"gamma_ray_bursts",
+
+"interstellar_medium",
+"interstellar_gas_and_plasma",
+"dust_and_interstellar_extinction",
+"molecular_clouds",
+"star_forming_regions",
+"nebulae_emission_and_reflection",
+"planetary_nebulae",
+
+"milky_way_galaxy",
+"milky_way_structure_and_components",
+"galactic_dynamics",
+"galactic_center_and_supermassive_black_hole",
+"galactic_chemical_evolution",
+
+"galaxies",
+"galaxy_morphology_and_classification",
+"spiral_galaxies",
+"elliptical_galaxies",
+"irregular_galaxies",
+"dwarf_galaxies",
+"starburst_galaxies",
+"active_galactic_nuclei",
+"quasars_and_blasars",
+"radio_galaxies",
+
+"galaxy_groups_and_clusters",
+"large_scale_structure_of_the_universe",
+"cosmic_filaments_and_voids",
+"intergalactic_medium",
+
+"cosmology",
+"big_bang_cosmology",
+"cosmic_inflation",
+"cosmic_microwave_background",
+"baryon_acoustic_oscillations",
+"dark_matter",
+"dark_energy",
+"cosmic_expansion_and_hubble_law",
+"age_and_fate_of_the_universe",
+
+"high_energy_astrophysics",
+"cosmic_rays",
+"neutrino_astronomy",
+"gamma_ray_astronomy",
+"x_ray_astronomy",
+"gravitational_wave_astronomy",
+"relativistic_astrophysics",
+"general_relativity_in_astrophysics",
+
+"astrochemistry",
+"chemistry_of_the_interstellar_medium",
+"molecules_in_space",
+"dust_grain_physics",
+
+"electromagnetic_spectrum_in_astronomy",
+"radio_astronomy",
+"microwave_astronomy",
+"infrared_astronomy",
+"optical_astronomy",
+"ultraviolet_astronomy",
+"x_ray_and_gamma_ray_observations",
+"multi_messenger_astronomy",
+
+"telescopes_and_instrumentation",
+"ground_based_telescopes",
+"space_telescopes_and_observatories",
+"radio_interferometers",
+"very_long_baseline_interferometry",
+"adaptive_optics",
+"detectors_and_ccds",
+
+"observational_techniques",
+"photometry",
+"spectroscopy",
+"polarimetry",
+"astrometry",
+"time_domain_and_transient_astronomy",
+"survey_astronomy_and_sky_catalogs",
+
+"celestial_mechanics",
+"orbital_dynamics",
+"n_body_problems",
+"tidal_interactions",
+"resonances_and_chaos_in_orbits",
+
+"space_missions_and_probes",
+"planetary_exploration_missions",
+"solar_observatories_and_probes",
+"astrophysics_space_missions",
+
+"amateur_astronomy",
+"naked_eye_sky_observing",
+"small_telescope_observing",
+"astrophotography",
+"citizen_science_in_astronomy",
+
+"cultural_astronomy_and_ethnoastronomy",
+"archaeoastronomy",
+"history_of_cosmological_models"
+]
+
 
 3. BECAUSE: Explain the significance in 1-2 sentences
-- Why should space enthusiasts care about this story?
-- What impact or relevance does it have?
+    - Why should space enthusiasts care about this story?
+    - What impact or relevance does it have?
+
+4. SCORE: Rate the story from 0-1 based on these criteria:
+    - Scientific importance (breakthrough, discovery significance)
+    - Relevance to space enthusiasts (general interest, educational value)
+    Provide the numerical score and brief reasoning (1-2 sentences)
+    Additionally, it is better to be critical then inflate the score.
+    Make it extremely specific too don't be afraid to go into the thousandths place.
 
 Guidelines:
 - Write in clear, engaging English
@@ -23,8 +203,11 @@ Guidelines:
 
 Response format: Return ONLY valid JSON with no additional text or formatting:
 {
-"summary": "Your summary here...",
-"topics": ["topic1", "topic2"],
-"because": "Your explanation here..."
-
+    "summary": "Your summary here...",
+    "topics": ["topic1", "topic2"],
+    "because": "Your explanation here..."
+    "score": {
+        "score": 0.0
+        "reasoning": "Your reasoning"
+    }
 }

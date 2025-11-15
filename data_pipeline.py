@@ -6,10 +6,11 @@ from pathlib import Path
 import time
 
 ROOT_DIR = Path(__file__).parent
+LLM_SCRIPT = ROOT_DIR / "agents" / "llm" / "build.py"
 CLEAN_SCRIPT = ROOT_DIR / "agents" / "cluster" / "clean.py"
 BUILD_SCRIPT = ROOT_DIR / "agents" / "cluster" / "build.py"
 DB_DIR = ROOT_DIR / "data" / "db"
-FINAL_OUTPUT = ROOT_DIR / "stories.json"
+stories_file = DB_DIR / "stories.json"
 
 
 def run_script(script_path, description):
@@ -80,25 +81,25 @@ def check_outputs():
     else:
         print(f"✗ Missing by-date directory: {by_date_dir}")
 
-    if story_candidates_file.exists():
-        print(f"✓ Story candidates file exists: {story_candidates_file}")
-        try:
-            import json
-
-            with open(story_candidates_file, "r", encoding="utf-8") as f:
-                stories = json.load(f)
-                print(f"  - Contains {len(stories)} story candidates")
-
-                # Copy to final output location
-                import shutil
-
-                shutil.copy2(story_candidates_file, FINAL_OUTPUT)
-                print(f"✓ Copied to final output: {FINAL_OUTPUT}")
-
-        except Exception as e:
-            print(f"  - Error processing story candidates: {e}")
+    if stories_file.exists():
+        print(f"✓ Final stories file exists: {stories_file}")
     else:
-        print(f"✗ Missing story candidates file: {story_candidates_file}")
+        print(f"✗ Missing final stories file: {stories_file}")
+
+
+def run_pipeline():
+
+    if not run_script(CLEAN_SCRIPT, "Article Cleaning & DB Update"):
+        print("Pipeline failed at cleaning step")
+        return 1
+    if not run_script(BUILD_SCRIPT, "Story Clustering & Building"):
+        print("Pipeline failed at building step")
+        return 1
+    if not run_script(LLM_SCRIPT, "LLM Processing"):
+        print("Pipeline failed at LLM processing step")
+        return 1
+    
+    return 0
 
 
 def main():
@@ -117,12 +118,16 @@ def main():
         print("Pipeline failed at building step")
         return 1
 
-    # Step 3: Check all outputs
+    if not run_script(LLM_SCRIPT, "LLM Processing"):
+        print("Pipeline failed at LLM processing step")
+        return 1
+
+    print("\n=== Pipeline Completed Successfully ===")
+
     check_outputs()
 
     overall_elapsed = time.time() - overall_start
     print(f"\n Pipeline completed in {overall_elapsed:.2f} seconds")
-    print(f" Final output available at: {FINAL_OUTPUT}")
 
     return 0
 
