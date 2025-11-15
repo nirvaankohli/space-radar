@@ -29,8 +29,9 @@ class processing:
                         "id": i,
                         "title": article.get("title", ""),
                         "source": article.get("source", ""),
-                        "source_url": article.get("source_url", ""),
-                        "article_url": article.get("article_url", ""),
+                        "url": article.get("url", ""),
+                        "text": article.get("text", ""),
+                        "timestamp": article.get("timestamp", ""),
                     }
                 )
 
@@ -43,6 +44,7 @@ class processing:
                 "timestamp": rep.get("timestamp", ""),
                 "articles": cluster_attr,
                 "urls": [i.get("url", "") for i in cluster_attr],
+                "rep_text": rep.get("text", ""),
                 "summary": "",
                 "topics": [""],
                 "because": "",
@@ -60,12 +62,15 @@ class processing:
 if __name__ == "__main__":
 
     import time
+    from pathlib import Path
+
+    db_dir = Path(__file__).parent.parent.parent / "data" / "db"
 
     start_time = time.time()
 
     proc = processing(threshold=0.7)
     i, art = proc.construct()
-    with open("story_candidates.json", "w", encoding="utf-8") as f:
+    with open(db_dir / "story_candidates.json", "w", encoding="utf-8") as f:
 
         import json
 

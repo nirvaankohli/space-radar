@@ -1,0 +1,854 @@
+[
+    {
+        "cluster_id": "fc3c37aa0f2203c19ea0ee6a868596f7",
+        "rep_id": "fc3c37aa0f2203c19ea0ee6a868596f7",
+        "member_ids": [
+            "fc3c37aa0f2203c19ea0ee6a868596f7"
+        ],
+        "rep_title": "Mapping Dark Matter",
+        "sources": [
+            "NASA"
+        ],
+        "timestamp": "2025-11-14T17:44:46+00:00",
+        "articles": [
+            {
+                "id": "fc3c37aa0f2203c19ea0ee6a868596f7",
+                "title": "Mapping Dark Matter",
+                "source": "NASA",
+                "url": "https://www.nasa.gov/image-article/mapping-dark-matter/",
+                "timestamp": "2025-11-14T17:44:46+00:00"
+            }
+        ],
+        "urls": [
+            "https://www.nasa.gov/image-article/mapping-dark-matter/"
+        ],
+        "rep_text": "NASA, ESA, CSA, STScI, CXC This image released on June 30, 2025, combines data from NASA’s James Webb Space Telescope and NASA’s Chandra X-ray Observatory to visualize dark matter. Researchers used Webb’s observations to carefully measure the mass of the galaxy clusters shown here as well as the collective light emitted by stars that are no longer bound to individual galaxies. Learn more. Image credit: NASA, ESA, CSA, STScI, CXC",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "b6861e773ca1b4ee023c6c635c7c4e93",
+        "rep_id": "b6861e773ca1b4ee023c6c635c7c4e93",
+        "member_ids": [
+            "b6861e773ca1b4ee023c6c635c7c4e93"
+        ],
+        "rep_title": "NASA Glenn Teams Win 2025 R&D 100 Awards",
+        "sources": [
+            "NASA"
+        ],
+        "timestamp": "2025-11-14T17:39:19+00:00",
+        "articles": [
+            {
+                "id": "b6861e773ca1b4ee023c6c635c7c4e93",
+                "title": "NASA Glenn Teams Win 2025 R&D 100 Awards",
+                "source": "NASA",
+                "url": "https://www.nasa.gov/newsletters/aerospace-frontiers/nasa-glenn-teams-win-2025-rd-100-awards/",
+                "timestamp": "2025-11-14T17:39:19+00:00"
+            }
+        ],
+        "urls": [
+            "https://www.nasa.gov/newsletters/aerospace-frontiers/nasa-glenn-teams-win-2025-rd-100-awards/"
+        ],
+        "rep_text": "Artistic rendering of the High-Rate Delay Tolerant Networking protocol being used on the Laser Communications Relay Demonstration to transfer radio and optical communications between Earth and space. Credit: NASA NASA’s Glenn Research Center in Cleveland has earned 2025 R&D 100 Awards for developing a system that delivers high-speed internet for space and co-inventing technology for a new class of soft magnetic nanocrystalline materials designed to operate at extreme temperatures. This brings NASA Glenn’s total to 130 R&D 100 Awards. High-Rate Delay Tolerant Networking NASA Glenn’s Daniel Raible and Rachel Dudukovich led their team of engineers to create High-Rate Delay Tolerant Networking (HDTN) , a cutting-edge software solution designed to revolutionize data streaming and communication in space. HDTN enables reliable, high-speed transmission of data between space and Earth — even under the extreme conditions of space — minimizing loss and system delay. High-Rate Delay Tolerant Networking team photo, left to right: Tad Kollar, Eric Brace, Brian Tomko, José Lombay-González, Nadia Kortas, Daniel Raible, John Nowakowski, Shaun McKeehan, Ethan Schweinsberg, Prash Choksi, and Rachel Dudukovich. Credit: NASA/Jef Janis “The HDTN software protocol allows faster, automated, and seamless data transfer between spacecraft, even across communication systems operating on different link speeds,” Raible said. “It’s up to 10 times faster than current delay-tolerant networking (DTN).” This advanced technology has far-reaching implications beyond NASA. With its open-source code, HDTN paves the way for collaboration, innovation, and adoption across the rapidly expanding commercial space industry, offering near real-time communication capabilities. Looking ahead, HDTN could form the foundation of a solar system-wide internet, supporting data exchange between Earth, spacecraft, and even future missions involving human travel to the Moon and Mars. VulcanAlloy In a project led by the University of Pittsburgh, researchers at NASA Glenn, including Nick Bruno, Grant Feichter, Vladimir Keylin, Alex Leary, and Ron Noebe, partnered with CorePower Magnetics to develop VulcanAlloy — a breakthrough soft magnetic nanocrystalline material. NASA’s Glenn Research Center in Cleveland tested high-temperature inductors using VulcanAlloy technology in the NASA Glenn Extreme Environments Rig, which simulates the conditions on Venus’ surface, on May 13, 2025. Credit: NASA VulcanAlloy, developed under NASA’s High Operating Temperature Technology Program using processing capability established by the Advanced Air Transport Technology project, operates above 500°C, far beyond the limits of conventional soft magnetic materials. Its nano-engineered structure maintains efficiency at high temperatures and frequencies. With adjustable magnetic properties, it can replace multiple materials in components like inductors, transformers, motors, and sensors while reducing the need for bulky cooling systems — ideal for extreme environments. Raytheon has tested VulcanAlloy cores, highlighting their potential in electrified aircraft, defense, and aerospace systems. This innovation also promises major impact in electric vehicles, data centers, microgrids, and energy systems, where smaller, lighter, and more efficient components are key to advancing next-generation power electronics. The R&D 100 Awards, a worldwide science and innovation competition, received entries from organizations around the world. Now in its 63rd year, this year’s judging panel included industry professionals from across the globe who evaluated breakthrough innovations in technology and science. Return to Newsletter Explore More NASA Glenn Reinforces Role in Aerospace Innovation During Ohio Space Week Article 2 months ago NASA Glenn’s AeroSpace Frontiers Newsletter Takes a Bow Article 2 months ago Glenn Highlights Space Exploration at Minnesota State Fair Article 2 months ago",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "e50aa79a9905407f4333ea63241e54af",
+        "rep_id": "e50aa79a9905407f4333ea63241e54af",
+        "member_ids": [
+            "e50aa79a9905407f4333ea63241e54af"
+        ],
+        "rep_title": "Sentinel-6 mission",
+        "sources": [
+            "ESA"
+        ],
+        "timestamp": "2017-04-12T14:25:00+00:00",
+        "articles": [
+            {
+                "id": "e50aa79a9905407f4333ea63241e54af",
+                "title": "Sentinel-6 mission",
+                "source": "ESA",
+                "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-6",
+                "timestamp": "2017-04-12T14:25:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-6"
+        ],
+        "rep_text": "Charting sea level for Copernicus With global mean sea level rising because of climate change, Copernicus Sentinel-6 is the next radar altimetry reference mission to extend the legacy of sea-surface height measurements until at least 2030. Each satellite carries a Poseidon-4 radar altimeter and a microwave radiometer. Date : Sentinel-6 Michael Freilich - 21 November 2020 Sentinel-6B - 17 November 2025 Site : Vandenberg, California, US Rocket : SpaceX Falcon 9 Copernicus Sentinel-6: Enhanced continuity of satellite sea level measurements",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "a639fd8770f8707c4eef01327ff713b1",
+        "rep_id": "a639fd8770f8707c4eef01327ff713b1",
+        "member_ids": [
+            "a639fd8770f8707c4eef01327ff713b1"
+        ],
+        "rep_title": "A solar prominence hovers over the Sun",
+        "sources": [
+            "ESA"
+        ],
+        "timestamp": "2025-11-14T15:00:00+00:00",
+        "articles": [
+            {
+                "id": "a639fd8770f8707c4eef01327ff713b1",
+                "title": "A solar prominence hovers over the Sun",
+                "source": "ESA",
+                "url": "https://www.esa.int/ESA_Multimedia/Videos/2025/11/A_solar_prominence_hovers_over_the_Sun",
+                "timestamp": "2025-11-14T15:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://www.esa.int/ESA_Multimedia/Videos/2025/11/A_solar_prominence_hovers_over_the_Sun"
+        ],
+        "rep_text": "Video: 00:22:00 The Sun is always mesmerising to watch, but Solar Orbiter captured a special treat on camera: a dark ‘prominence’ sticking out from the side of the Sun. The dark-looking material is dense plasma (charged gas) trapped by the Sun's complex magnetic field. It looks dark because it is cooler than its surroundings, being around 10 000 °C compared to the surrounding million-degree plasma. When viewed against the background of space, the hovering plasma is referred to as a prominence. When viewed against the Sun's surface, it is called a filament. (In this image you can see examples of both.) Solar prominences and filaments extend for tens of thousands of kilometres, several times the diameter of Earth. They can last days or even months. This video shows one hour of footage, sped up to make movement more clearly visible. Solar Orbiter recorded this video with its Extreme Ultraviolet Imager (EUI) instrument on 17 March 2025. At the time, the spacecraft was around 63 million km from the Sun, similar to planet Mercury. Solar Orbiter is a space mission of international collaboration between ESA and NASA. The EUI instrument is led by the Royal Observatory of Belgium (ROB). [Video description: Close-up video of the Sun, filling the left half of the view, its surface covered what looks like moving, glowing hairs accompanied by some short-lived bright arcs. Protruding to the right, in the centre of the video, is dark material that looks almost feathery, with thin streaks flowing both away from and towards the Sun.]",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "359030f98793ed4262194620e525afe8",
+        "rep_id": "359030f98793ed4262194620e525afe8",
+        "member_ids": [
+            "359030f98793ed4262194620e525afe8"
+        ],
+        "rep_title": "ULA launches Viasat’s second shot at a terabit-class broadband satellite",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-14T08:07:54+00:00",
+        "articles": [
+            {
+                "id": "359030f98793ed4262194620e525afe8",
+                "title": "ULA launches Viasat’s second shot at a terabit-class broadband satellite",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/ula-launches-viasats-second-shot-at-a-terabit-class-broadband-satellite/",
+                "timestamp": "2025-11-14T08:07:54+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/ula-launches-viasats-second-shot-at-a-terabit-class-broadband-satellite/"
+        ],
+        "rep_text": "An Atlas 5 rocket sent Viasat’s second ViaSat-3 satellite toward geostationary orbit Nov. 13, bringing the U.S. broadband provider closer to operating a terabit-per-second giant it had hoped to debut six years ago. The post ULA launches Viasat’s second shot at a terabit-class broadband satellite appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "7345870cc4da060aa5ead24432de729c",
+        "rep_id": "7345870cc4da060aa5ead24432de729c",
+        "member_ids": [
+            "7345870cc4da060aa5ead24432de729c"
+        ],
+        "rep_title": "Canada’s SBQuantum wins contract to supply ESA magnetometer",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-14T04:00:00+00:00",
+        "articles": [
+            {
+                "id": "7345870cc4da060aa5ead24432de729c",
+                "title": "Canada’s SBQuantum wins contract to supply ESA magnetometer",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/canadas-sbquantum-wins-contract-to-supply-esa-magnetometer/",
+                "timestamp": "2025-11-14T04:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/canadas-sbquantum-wins-contract-to-supply-esa-magnetometer/"
+        ],
+        "rep_text": "SAN FRANCISCO – Canada’s SBQuantum has won an €800,000 ($932,000) European Space Agency contract to deliver a prototype quantum magnetometer for space-based Earth observation. Under the 21-month contract, announced Nov. 14, SBQuantum will upgrade the quantum diamond magnetometer delivered to ESA for testing and evaluation in 2024. The new version of the sensor will be […] The post Canada’s SBQuantum wins contract to supply ESA magnetometer appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "b8c3683c83c19f80d1a29f239e764612",
+        "rep_id": "b8c3683c83c19f80d1a29f239e764612",
+        "member_ids": [
+            "b8c3683c83c19f80d1a29f239e764612",
+            "cdc6c39e4338659605c48826af697fca"
+        ],
+        "rep_title": "New Glenn launches NASA’s ESCAPADE Mars mission, lands booster",
+        "sources": [
+            "SpaceNews",
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-13T21:38:41+00:00",
+        "articles": [
+            {
+                "id": "b8c3683c83c19f80d1a29f239e764612",
+                "title": "New Glenn launches NASA’s ESCAPADE Mars mission, lands booster",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/new-glenn-launches-nasas-escapade-mars-mission-lands-booster/",
+                "timestamp": "2025-11-13T21:38:41+00:00"
+            },
+            {
+                "id": "cdc6c39e4338659605c48826af697fca",
+                "title": "Blue Origin launches twin Mars probes for NASA as New Glenn makes first landing",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/13/blue-origin-launches-twin-mars-probes-for-nasa-as-new-glenn-makes-first-landing/",
+                "timestamp": "2025-11-13T22:39:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/new-glenn-launches-nasas-escapade-mars-mission-lands-booster/",
+            "https://spaceflightnow.com/2025/11/13/blue-origin-launches-twin-mars-probes-for-nasa-as-new-glenn-makes-first-landing/"
+        ],
+        "rep_text": "Blue Origin successfully launched a NASA Mars mission on the second flight of its New Glenn booster Nov. 13, landing the vehicle’s first stage in the process. The post New Glenn launches NASA’s ESCAPADE Mars mission, lands booster appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "1d4bb5c0d04d46c64e8b4884e7bfe307",
+        "rep_id": "1d4bb5c0d04d46c64e8b4884e7bfe307",
+        "member_ids": [
+            "1d4bb5c0d04d46c64e8b4884e7bfe307"
+        ],
+        "rep_title": "Project Kuiper becomes Amazon Leo ahead of LEO broadband service debut",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-13T20:19:23+00:00",
+        "articles": [
+            {
+                "id": "1d4bb5c0d04d46c64e8b4884e7bfe307",
+                "title": "Project Kuiper becomes Amazon Leo ahead of LEO broadband service debut",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/project-kuiper-becomes-amazon-leo-ahead-of-leo-broadband-service-debut/",
+                "timestamp": "2025-11-13T20:19:23+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/project-kuiper-becomes-amazon-leo-ahead-of-leo-broadband-service-debut/"
+        ],
+        "rep_text": "Project Kuiper has shed its seven-year-old code name, emerging as Amazon Leo Nov. 13 as the company nears the start of initial broadband services from the low Earth orbit constellation next year. The post Project Kuiper becomes Amazon Leo ahead of LEO broadband service debut appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "16e82e7cddcf0e0e4a24099ad910a6d2",
+        "rep_id": "16e82e7cddcf0e0e4a24099ad910a6d2",
+        "member_ids": [
+            "16e82e7cddcf0e0e4a24099ad910a6d2"
+        ],
+        "rep_title": "Countering China’s Space Silk Road: a U.S. partnership model for the Middle East",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-13T14:00:00+00:00",
+        "articles": [
+            {
+                "id": "16e82e7cddcf0e0e4a24099ad910a6d2",
+                "title": "Countering China’s Space Silk Road: a U.S. partnership model for the Middle East",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/countering-chinas-space-silk-road-a-u-s-partnership-model-for-the-middle-east/",
+                "timestamp": "2025-11-13T14:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/countering-chinas-space-silk-road-a-u-s-partnership-model-for-the-middle-east/"
+        ],
+        "rep_text": "The Middle East is no longer asking whether it should develop domestic space capabilities; it’s deciding with whom it will develop them. If the United States wants to be the country of choice ahead of China, it must create a joint space partnership agreement framework to align American and partner nations’ industry, government and financial […] The post Countering China’s Space Silk Road: a U.S. partnership model for the Middle East appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "d80336d4d5ceea94b7f24cfe7dec962e",
+        "rep_id": "d80336d4d5ceea94b7f24cfe7dec962e",
+        "member_ids": [
+            "d80336d4d5ceea94b7f24cfe7dec962e"
+        ],
+        "rep_title": "Keeping America first in space",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-13T13:34:44+00:00",
+        "articles": [
+            {
+                "id": "d80336d4d5ceea94b7f24cfe7dec962e",
+                "title": "Keeping America first in space",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/keeping-america-first-in-space/",
+                "timestamp": "2025-11-13T13:34:44+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/keeping-america-first-in-space/"
+        ],
+        "rep_text": "In this episode of Space Minds, host David Ariosto speaks with Jim Bridenstine, former NASA Administrator and U.S. Congressman, who oversaw the launch of the Artemis program—America’s renewed effort to return astronauts to the Moon. The post Keeping America first in space appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "b3fad7a3937d1effb1d82f491844bf88",
+        "rep_id": "b3fad7a3937d1effb1d82f491844bf88",
+        "member_ids": [
+            "b3fad7a3937d1effb1d82f491844bf88"
+        ],
+        "rep_title": "Lux Aeterna nets US government partnerships for reusable satellite technology",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-13T12:05:00+00:00",
+        "articles": [
+            {
+                "id": "b3fad7a3937d1effb1d82f491844bf88",
+                "title": "Lux Aeterna nets US government partnerships for reusable satellite technology",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/lux-aeterna-nets-us-government-partnerships-for-reusable-satellite-technology/",
+                "timestamp": "2025-11-13T12:05:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/lux-aeterna-nets-us-government-partnerships-for-reusable-satellite-technology/"
+        ],
+        "rep_text": "Lux Aeterna is attracting growing interest from across the U.S. government for heat shield technology designed to make satellites fully reusable, securing two partnership agreements since emerging from stealth in June. The post Lux Aeterna nets US government partnerships for reusable satellite technology appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "7b555d92d5b776476d7242d4765be128",
+        "rep_id": "7b555d92d5b776476d7242d4765be128",
+        "member_ids": [
+            "7b555d92d5b776476d7242d4765be128"
+        ],
+        "rep_title": "‘Uncontrolled experiment:’ Study links harmful atmospheric metals to spacecraft reentry",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-13T12:00:00+00:00",
+        "articles": [
+            {
+                "id": "7b555d92d5b776476d7242d4765be128",
+                "title": "‘Uncontrolled experiment:’ Study links harmful atmospheric metals to spacecraft reentry",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/uncontrolled-experiment-study-links-harmful-atmospheric-metals-to-spacecraft-reentry/",
+                "timestamp": "2025-11-13T12:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/uncontrolled-experiment-study-links-harmful-atmospheric-metals-to-spacecraft-reentry/"
+        ],
+        "rep_text": "GOLDEN, CO — The surge in megasatellite constellations is creating problems beyond amplifying the Earth-circling space debris, according to new research. Reentering spacecraft and rocket stages may also be damaging Earth’s atmosphere, as well as increasing the risk of space waste hitting the Earth. New research posted to the preprint database ArXiv finds that “space […] The post ‘Uncontrolled experiment:’ Study links harmful atmospheric metals to spacecraft reentry appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "86ecc570e3a5be2108cea6c2b0a05d0e",
+        "rep_id": "86ecc570e3a5be2108cea6c2b0a05d0e",
+        "member_ids": [
+            "86ecc570e3a5be2108cea6c2b0a05d0e"
+        ],
+        "rep_title": "Live Event: The Role of Space-Based Interceptors in Golden Dome (Replay)",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-12T19:57:42+00:00",
+        "articles": [
+            {
+                "id": "86ecc570e3a5be2108cea6c2b0a05d0e",
+                "title": "Live Event: The Role of Space-Based Interceptors in Golden Dome (Replay)",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/live-event-the-role-of-space-based-interceptors-in-golden-dome/",
+                "timestamp": "2025-11-12T19:57:42+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/live-event-the-role-of-space-based-interceptors-in-golden-dome/"
+        ],
+        "rep_text": "From inflationary pressures and shifting interest rates to supply chain challenges and intensifying great-power competition, today’s macroeconomic and geopolitical forces are reshaping the future of space investment. For investors and businesses, navigating this environment means balancing capital market dynamics, technology cycles, and an increasingly complex landscape of export controls, trade restrictions, and government influence. The post Live Event: The Role of Space-Based Interceptors in Golden Dome (Replay) appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "486424cb40e8d61766787e07302358d1",
+        "rep_id": "486424cb40e8d61766787e07302358d1",
+        "member_ids": [
+            "486424cb40e8d61766787e07302358d1"
+        ],
+        "rep_title": "French startup U-Space raises €24 million for smallsat manufacting",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-12T17:21:39+00:00",
+        "articles": [
+            {
+                "id": "486424cb40e8d61766787e07302358d1",
+                "title": "French startup U-Space raises €24 million for smallsat manufacting",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/french-startup-u-space-raises-24-million-for-smallsat-manufacting/",
+                "timestamp": "2025-11-12T17:21:39+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/french-startup-u-space-raises-24-million-for-smallsat-manufacting/"
+        ],
+        "rep_text": "SAN FRANCISCO – French startup U-Space has raised €24 million ($27.8 million) to expand its role in the small satellite constellation market. With funding from the Series A round, Toulouse-based […] The post French startup U-Space raises €24 million for smallsat manufacting appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "7b88354c2a782b62fbd40f20b035d4b2",
+        "rep_id": "7b88354c2a782b62fbd40f20b035d4b2",
+        "member_ids": [
+            "7b88354c2a782b62fbd40f20b035d4b2"
+        ],
+        "rep_title": "The case for a southern launch corridor: Yuma’s role in the future of spaceflight",
+        "sources": [
+            "SpaceNews"
+        ],
+        "timestamp": "2025-11-12T14:00:00+00:00",
+        "articles": [
+            {
+                "id": "7b88354c2a782b62fbd40f20b035d4b2",
+                "title": "The case for a southern launch corridor: Yuma’s role in the future of spaceflight",
+                "source": "SpaceNews",
+                "url": "https://spacenews.com/the-case-for-a-southern-launch-corridor-yumas-role-in-the-future-of-spaceflight/",
+                "timestamp": "2025-11-12T14:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://spacenews.com/the-case-for-a-southern-launch-corridor-yumas-role-in-the-future-of-spaceflight/"
+        ],
+        "rep_text": "The dream of accessible space travel is inching closer to reality. As private companies push the boundaries of space tourism and orbital logistics, the need for strategically located and versatile spaceports is becoming increasingly critical. While established players like Cape Canaveral Space Force Station and Vandenberg Space Force Base hold significant sway, the future of […] The post The case for a southern launch corridor: Yuma’s role in the future of spaceflight appeared first on SpaceNews",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "802d9716114cca20c83dbfd0916bc11f",
+        "rep_id": "802d9716114cca20c83dbfd0916bc11f",
+        "member_ids": [
+            "802d9716114cca20c83dbfd0916bc11f",
+            "a381490a22493b9bb174878c9c1d0bed"
+        ],
+        "rep_title": "SpaceX completes second fastest turnaround between Falcon 9 launches from Cape Canaveral",
+        "sources": [
+            "SpaceflightNow",
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-14T23:35:50+00:00",
+        "articles": [
+            {
+                "id": "802d9716114cca20c83dbfd0916bc11f",
+                "title": "SpaceX completes second fastest turnaround between Falcon 9 launches from Cape Canaveral",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-predawn-starlink-mission-from-cape-canaveral/",
+                "timestamp": "2025-11-14T23:35:50+00:00"
+            },
+            {
+                "id": "a381490a22493b9bb174878c9c1d0bed",
+                "title": "SpaceX launches 29 Starlink satellites on Falcon 9 rocket from NASA’s Kennedy Space Center",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-center-2/",
+                "timestamp": "2025-11-14T23:17:07+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-predawn-starlink-mission-from-cape-canaveral/",
+            "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-center-2/"
+        ],
+        "rep_text": "A SpaceX Falcon 9 rocket lifts off from Space Launch Complex 39A (LC-39A) at Cape Canaveral Space Force Station to begin the Starlink 6-85 mission on Nov. 15, 2025. Image: Adam Bernstein / Spaceflight Now Update Nov. 15, 2:24 a.m. EST (0724 UTC): SpaceX landed its first stage booster. SpaceX kicked off the weekend with a pair of Falcon 9 launches. With both flights depart Florida’s Space Coast at about three hours and 35 minutes of each other, this was the second shortest turnaround from Cape-based flights for SpaceX. The Starlink 6-85 mission was the second scheduled to fly, departing from pad 40 at Cape Canaveral Space Force Station at 1:44 a.m. EST (0644 UTC). The Starlink 6-89 mission launched from pad 39A at NASA’s Kennedy Space Center at 10:08 p.m. EST (0308 UTC). Each mission carried 29 Starlink V2 Mini satellites on board. ﻿ Given the proximity of the two missions, the 45th Weather Squadron issued identical forecasts for both missions, citing a greater than 95 percent chance for favorable weather at liftoff. After a few days of notable solar activity, launch weather officers dropped the potential for solar impacts down to a moderate risk on a low-moderate-high scale. The Starlink 6-85 mission launched with the Falcon 9 booster with the tail number B1078, which flew for a 24th time. Its previous missions included Crew-6, USSF-124 and AST SpaceMobile’s BlueBird 1-5. About 8.5 minutes after liftoff, B1078 performed an autonomous landing on the drone ship, ‘Just Read the Instructions’, which was positioned in the Atlantic Ocean to the east of The Bahamas. With the pair of Starlink missions, SpaceX now has nearly 9,000 of its satellites in low Earth orbit.",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "2704107f520411f23373c95f7a12ed40",
+        "rep_id": "2704107f520411f23373c95f7a12ed40",
+        "member_ids": [
+            "2704107f520411f23373c95f7a12ed40"
+        ],
+        "rep_title": "ULA launches ViaSat-3 following valve replacement on Atlas 5 rocket",
+        "sources": [
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-13T13:37:48+00:00",
+        "articles": [
+            {
+                "id": "2704107f520411f23373c95f7a12ed40",
+                "title": "ULA launches ViaSat-3 following valve replacement on Atlas 5 rocket",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/13/live-coverage-ula-to-launch-viasat-3-following-valve-replacement-on-atlas-5-rocket/",
+                "timestamp": "2025-11-13T13:37:48+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/13/live-coverage-ula-to-launch-viasat-3-following-valve-replacement-on-atlas-5-rocket/"
+        ],
+        "rep_text": "A United Launch Alliance Atlas 5 551 rocket lifts off from Space Launch Complex 41 (SLC-41) at Cape Canaveral Space Force Station to begin the ViaSat-3 F2 mission for Viasat. Image: Adam Bernstein / Spaceflight Now Update Nov. 13, 11 p.m. EST (0400 UTC): ULA launched its Atlas 5 rocket and completed the first two out of three upper stage engine burns. United Launch Alliance launched its Atlas 5 rocket Thursday night, which carried a communications satellite for California-based communications company, Viasat. The launch came a week after the mission was scrubbed due to a faulty liquid oxygen tank vent valve on the Atlas booster. ULA rolled the rocket back to the Vertical Integration Facility about third of a mile away, replaced it with a new valve and returned the rocket to the pad on Nov. 12. The 6-metric-ton satellite will be launched to a geosynchronous transfer orbit, deploying nearly 3.5 hours after the rocket lifts off from Cape Canaveral Space Force Station. Liftoff from Space Launch Complex 41 happened at 10:04 p.m. EST (0304 UTC), the opening of a 44-minute-long window. The rocket headed due east upon leaving Florida’s Space Coast. ﻿ ULA launched this mission using an Atlas 5 rocket in its 551 configuration. The 196-foot-tall (59.7 meters) rocket was supported by five solid rocket boosters, which combined with the RD-180 main engine to produce about 2.7 million pounds (12 megaNewtons) of thrust at liftoff. The SRBs jettisoned less than two minutes into the flight, followed by the payload fairings about a minute and a half later. It will take three separate firings of the RL10C-1-1 engine on the Centaur 3 upper stage to reach the correct orbit to release the ViaSat-3 F2 satellite. Following release, the upper stage will be placed in a so-called graveyard orbit nearly an hour later. This rocket had the designation of AV-100 and was the 105th Atlas V rocket launched to date. Following this launch, ULA now has 11 of these rockets remaining before it is officially retired: 6 – Boeing’s CST-100 Starliner 5 – Amazon’s Project Kuiper A United Launch Alliance Atlas 5 551 rocket lifts off from Space Launch Complex 41 (SLC-41) at Cape Canaveral Space Force Station to begin the ViaSat-3 F2 mission for Viasat. Image: John Pisani / Spaceflight Now What’s onboard? This was the second satellite in the ViaSat-3 series that will operate in geostationary Earth orbit, following the launch of the first spacecraft in 2023. After the ViaSat-3 F1 satellite launched on a SpaceX Falcon Heavy rocket, it suffered an issue with its antenna, which both delayed the start of service and resulted in a reduced capacity. Viasat officials said ahead of the launch that this new satellite will provide needed Ka-band network capabilities, adding more than 1 terabits per second (Tbps) of capacity to the network over the Americas. Following a months of on-orbit testing at its operating slog of 79 degrees West longitude, the ViaSat-3 F2 spacecraft is expected to enter service in early 2026. The ViaSat-3 F2 satellite is moved within the Astrotech Space Operations facility in Titusville, Florida, where it was encapsulated in payload fairings for United Launch Alliance’s Atlas 5 rocket. Image: Viasat “Beyond an incredible capacity increase, ViaSat-3 F2’s dynamic beam forming capabilities will greatly benefit our customers by efficiently deploying bandwidth to the highest demand places, allowing us to scale performance and the number and density of users,” said Mark Dankberg, Chairman and CEO of Viasat, in a statement. “These capabilities will continue to fuel our successful, multi-orbit service offerings, including service platforms such as Viasat Amara, NexusWave, and a resilient, hybrid SATCOM architecture for government.” The satellite is built on Boeing’s 702MP+ platform, which uses electric propulsion and solar arrays, the latter of which is from Boeing subsidiary, Spectrolab. Boeing is supporting Viasat in both launch operations and post-deployment checkouts. “Our goal is to enable missions with reliability and timely delivery,” said Michelle Parker, Vice President of Boeing Space Mission Systems. “With ViaSat‑3 F2, we leveraged proven 702 heritage, advanced power systems and all‑electric propulsion to enable high-speed connectivity for users who rely on it.”",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "a70dc6c91bdefc5768c412113ecf610d",
+        "rep_id": "a70dc6c91bdefc5768c412113ecf610d",
+        "member_ids": [
+            "a70dc6c91bdefc5768c412113ecf610d"
+        ],
+        "rep_title": "Launch preview: Blue Origin to launch NASA’s ESCAPADE following scrubs from clouds, space weather",
+        "sources": [
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-13T13:17:28+00:00",
+        "articles": [
+            {
+                "id": "a70dc6c91bdefc5768c412113ecf610d",
+                "title": "Launch preview: Blue Origin to launch NASA’s ESCAPADE following scrubs from clouds, space weather",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/13/live-coverage-blue-origin-to-launch-nasas-escapade-following-scrubs-from-clouds-space-weather/",
+                "timestamp": "2025-11-13T13:17:28+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/13/live-coverage-blue-origin-to-launch-nasas-escapade-following-scrubs-from-clouds-space-weather/"
+        ],
+        "rep_text": "Blue Origin’s New Glenn rocket that will launch NASA’s ESCAPADE (Escape and Plasma Acceleration Dynamics Explorers) mission along with a technology demonstration from Viasat. Image: Blue Origin Blue Origin is stepping back up to the plate and will take another crack at launching its 98-meter-tall (321 ft) rocket from Cape Canaveral Space Force Station on Thursday, Nov. 13. A confluence of poor weather, an errant cruise ship in the keep out zone and a ground systems issue at the pad were roadblocks to a Sunday launch attempt. Its second attempt on Wednesday was halted because a trio of coronal mass ejections from the Sun created too high of a probability for strong geomagnetic storms. The company founded by Amazon founder Jeff Bezos is now targeting liftoff from Launch Complex 36 during an 88-minute window that opens at 2:57 p.m. EST (1957 UTC). Spaceflight Now will have live coverage beginning about three hours prior to liftoff. ﻿ The 45th Weather Squadron forecast a greater than 95 percent chance of liftoff during the window, citing no concerns for meteorological impacts that would prevent launch. Teams were also watching for the lingering effects of the geomagnetic storms, placing them as a “moderate” risk to launch on Thursday. On Tuesday afternoon, NOAA’s Space Weather Prediction Center forecast a G4 Severe Watch connected to a coronal mass ejection first detected on Sunday, Nov. 9. It noted that this is just the fourth G4 Watch issued this solar cycle, making it “very rare,” and added that impacts are expected “about midday on Nov. 12.” “A CME is anticipated to arrive at and partially impact Earth around midday, 12 Nov; with the potential for elevated geomagnetic response and dependent upon the orientation of the embedded magnetic field, potential exists for Severe Storm levels.” In its latest update on Thursday morning, NOAA issued an extended warning for “Proton 10MeV Integral Flux above 10pfu.” This type of so-called Solar Proton Event or SPE for short can be harmful to spacecraft electronics. ﻿ Roughly three minutes after liftoff, Blue Origin will attempt to propel the first stage booster, named ‘Never Tell Me the Odds’, towards a landing on its barge, ‘Jacklyn’, which is staged about 375 miles (603.5 km) downrange of the launch pad. The company attempted a similar landing with its first New Glenn booster, ‘So You’re Telling Me There’s a Chance’, but it failed to properly relight the three gimbaling BE-4 engines for the reentry burn. If all goes well, Blue Origin will become the second private company to perform a propulsive landing an orbital class rocket. It plans to reuse its boosters for up to 25 flights initially, assuming successful landings. The Recovery Remotely Operated Vehicle (ROV) pictured on Blue Origin’s landing vessel, named ‘Jacklyn,’ after founder Jeff Bezos’ mother. ROV will deploy following a booster landing and provide power, communication and pneumatic links between the booster and Jacklyn, according to Blue Origin CEO Dave Limp. Image: Blue Origin What’s onboard? Nestled within the New Glenn’s 7 m (23 ft) payload fairings are the twin spacecraft that makeup NASA’s Escape and Plasma Acceleration and Dynamics Explorers (ESCAPADE) mission as well as a ride share communications technology demonstration from Viasat. A little more than 33 minutes after liftoff, the two ESCAPADE satellites, Blue and Gold will deploy from a satellite adaptor called an Evolved Expendable Launch Vehicle (ESPA) ring. Blue separates first and then Gold about 30 seconds later. They are being released into a highly elliptical orbit, “just shy of Earth escape velocity,” Blue Origin CEO Dave Limp said in a social media post on Nov. 9. The twins will loiter in a novel so-called “kidney bean” shaped orbit around Lagrange Point 2 about a million miles from Earth for about a year. They will then use the Earth for a gravity assist around fall 2026 to begin a roughly 11-month journey to the Red Planet. They will arrive at Mars roughly two days apart when they will each perform a Mars insertion burn to enter into an elliptical orbit that will slowly be lowered into their target science orbit. They will be studying Mars’ magnetosphere to learn more about how it’s been influenced by space weather over time. Rocket Lab built ESCAPADE twin spacecraft fully assembled and ready for shipping at the company’s Spacecraft Production Complex and headquarters in Long Beach, California, before shipping to the launch site at Cape Canaveral, Florida. Image: Rocket Lab The other payload onboard New Glenn from Viasat will remain fixed to the upper stage and be activated about five minutes after the deployment of the second ESCAPADE spacecraft. This is a demonstration of Viasat’s InRange launch telemetry relay solution, which is part of the company’s work under the NASA Communications Services Project. “InRange is a specific launch telemetry data relay service designed to support launch providers with responsive, real-time data transmission during launch using Viasat’s L-band network,” a Viasat spokesperson told Spaceflight Now in a statement. “This is a separate solution from Viasat’s high-capacity Ka-band data relay capability (i.e. Real-Time Space Relay), which is also being developed and will separately be demonstrated as part of our NASA CSP program work.”",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "bda57ebfbdc27211133af448c7040026",
+        "rep_id": "bda57ebfbdc27211133af448c7040026",
+        "member_ids": [
+            "bda57ebfbdc27211133af448c7040026"
+        ],
+        "rep_title": "NASA scrubs ESCAPADE launch due to ‘highly elevated solar activity’",
+        "sources": [
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-11T23:07:49+00:00",
+        "articles": [
+            {
+                "id": "bda57ebfbdc27211133af448c7040026",
+                "title": "NASA scrubs ESCAPADE launch due to ‘highly elevated solar activity’",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/11/live-coverage-blue-origin-targets-nov-12-new-glenn-launch-following-weekend-weather-scrub/",
+                "timestamp": "2025-11-11T23:07:49+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/11/live-coverage-blue-origin-targets-nov-12-new-glenn-launch-following-weekend-weather-scrub/"
+        ],
+        "rep_text": "Blue Origin’s New Glenn rocket designed for the NG-2 mission is pictured at sunset at Launch Complex 36, the evening of Nov. 8, 2025. The rocket will carry NASA’s ESCAPADE mission along with a payload demonstration for Viasat. Image: Adam Bernstein / Spaceflight Now Update Nov. 12, 10:40 a.m. EST (1540 UTC): NASA scrubbed the launch due to strong solar impacts. After terrestrial weather forced Blue Origin to scrub its Sunday attempt to launch its 98-meter-tall (321 ft) New Glenn rocket, unacceptable space weather prevented a launch attempt on Wednesday from Cape Canaveral Space Force Station. In a post on social media, the company said NASA made the call to stand down “due to highly elevated solar activity and its potential effects on the ESCAPADE spacecraft.” “NASA is postponing launch until space weather conditions improve. We are currently assessing opportunities to establish our next launch,” Blue Origin wrote in a post on X. A confluence of poor weather, an errant cruise ship in the keep out zone and a ground systems issue at Launch Complex 36 were roadblocks to a Sunday launch attempt. In rescheduling the mission, Blue Origin said in another social media post that it was avoiding poor weather on Monday and Tuesday, but didn’t mention the status of the ground systems issue. G3 conditions are currently being observed. G4 conditions with a chance for higher levels remain possible throughout the day as another CME is expected to arrive midday (EST). pic.twitter.com/XcBmeNns4J — NOAA Space Weather Prediction Center (@NWSSWPC) November 12, 2025 The 45th Weather Squadron forecast a greater than 95 percent chance of liftoff during the window, citing no concerns for meteorological impacts that would prevent launch. Teams did highlight the booster recovery zone as watch item, stating that it was a “moderate” risk on a low-moderate-high scale. Space weather could also be an issue. On Tuesday afternoon, NOAA’s Space Weather Prediction Center forecast a G4 Severe Watch connected to a coronal mass ejection first detected on Sunday, Nov. 9. It noted that this is just the fourth G4 Watch issued this solar cycle, making it “very rare,” and added that impacts are expected “about midday on Nov. 12.” “A CME is anticipated to arrive at and partially impact Earth around midday, 12 Nov; with the potential for elevated geomagnetic response and dependent upon the orientation of the embedded magnetic field, potential exists for Severe Storm levels.” Blue Origin’s New Glenn rocket designed for the NG-2 mission is pictured at sunset at Launch Complex 36, the evening of Nov. 8, 2025. The rocket will carry NASA’s ESCAPADE mission along with a payload demonstration for Viasat. Image: Adam Bernstein / Spaceflight Now When the mission is able to launch, starting at stage separation, roughly three minutes after liftoff, teams will attempt to steer the first stage booster, named ‘Never Tell Me the Odds’, towards a landing in the Atlantic on a barge, ‘Jacklyn’, which is staged about 375 miles (603.5 km) downrange of the launch pad. Blue Origin attempted a similar landing with its first New Glenn booster, ‘So You’re Telling Me There’s a Chance’, but the rocket failed to properly relight the three gimbaling BE-4 engines for the reentry burn. If all goes well, Blue Origin will become the second private company to perform a propulsive landing an orbital class rocket. It plans to reuse its boosters for up to 25 flights initially, assuming successful landings. The Recovery Remotely Operated Vehicle (ROV) pictured on Blue Origin’s landing vessel, named ‘Jacklyn,’ after founder Jeff Bezos’ mother. ROV will deploy following a booster landing and provide power, communication and pneumatic links between the booster and Jacklyn, according to Blue Origin CEO Dave Limp. Image: Blue Origin What’s onboard? Nestled within the New Glenn’s 7 m (23 ft) payload fairings are the twin spacecraft that makeup NASA’s Escape and Plasma Acceleration and Dynamics Explorers (ESCAPADE) mission as well as a ride share communications technology demonstration from Viasat. A little more than 33 minutes after liftoff, the two ESCAPADE satellites, Blue and Gold will deploy from a satellite adaptor called an Evolved Expendable Launch Vehicle (ESPA) ring. Blue separates first and then Gold about 30 seconds later. They are being released into a highly elliptical orbit, “just shy of Earth escape velocity,” Blue Origin CEO Dave Limp said in a social media post on Nov. 9. The twins will loiter in a novel so-called “kidney bean” shaped orbit around Lagrange Point 2 about a million miles from Earth for about a year. They will then use the Earth for a gravity assist around fall 2026 to begin a roughly 11-month journey to the Red Planet. They will arrive at Mars roughly two days apart when they will each perform a Mars insertion burn to enter into an elliptical orbit that will slowly be lowered into their target science orbit. They will be studying Mars’ magnetosphere to learn more about how it’s been influenced by space weather over time. Mating the twins to their Evolved Expendable Launch Vehicle Secondary Payload Adapter (ESPA) ring. The ESPA ring is what lets multiple smaller spacecraft share a launch on the same rocket. pic.twitter.com/tBlxMkfGG6 — Rocket Lab (@RocketLab) November 9, 2025 The other payload onboard New Glenn from Viasat will remain fixed to the upper stage and be activated about five minutes after the deployment of the second ESCAPADE spacecraft. This is a demonstration of Viasat’s InRange launch telemetry relay solution, which is part of the company’s work under the NASA Communications Services Project. “InRange is a specific launch telemetry data relay service designed to support launch providers with responsive, real-time data transmission during launch using Viasat’s L-band network,” a Viasat spokesperson told Spaceflight Now in a statement. “This is a separate solution from Viasat’s high-capacity Ka-band data relay capability (i.e. Real-Time Space Relay), which is also being developed and will separately be demonstrated as part of our NASA CSP program work.”",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "a315d6386c8d6eb950e715f0bf0147a8",
+        "rep_id": "a315d6386c8d6eb950e715f0bf0147a8",
+        "member_ids": [
+            "a315d6386c8d6eb950e715f0bf0147a8"
+        ],
+        "rep_title": "Rocket Lab delays debut of Neutron rocket to 2026",
+        "sources": [
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-11T04:31:24+00:00",
+        "articles": [
+            {
+                "id": "a315d6386c8d6eb950e715f0bf0147a8",
+                "title": "Rocket Lab delays debut of Neutron rocket to 2026",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/11/rocket-lab-delays-debut-of-neutron-rocket-to-2026/",
+                "timestamp": "2025-11-11T04:31:24+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/11/rocket-lab-delays-debut-of-neutron-rocket-to-2026/"
+        ],
+        "rep_text": "An artist’s rendering of a Rocket Lab Neutron rocket during stage separation. Illustration: Rocket Lab The inaugural flight of Rocket Lab’s reusable, medium-lift Neutron rocket is now set for 2026, instead of this year. The company said more testing and qualification work was needed. Sir Peter Beck, the CEO of Rocket Lab, announced the shift in plans during the third quarter earnings call with investors on Nov. 10. He said that the company’s goal is to get the rocket out to Launch Complex 3 at the Virginia Spaceport Authority’s (VSA) Mid-Atlantic Regional Spaceport (MARS) within the first quarter of 2026 “with first launch thereafter.” “As always, this is a rocket program that’s been completed at a pace and a cost that nobody has achieved before and the financial and long-term impacts are insignificant to take a little bit more time to get it right,” Beck told investors on the call. Without naming names, Beck said others have raced to the launch pad without being fully ready for launch and that would not be their approach. He emphasized that Rocket Lab’s goal is to have a fully successful first flight and to make it to orbit without issue. “You won’t see us minimizing some qualifier about us just clearing the pad and claiming success and whatnot,” Beck said. “And that means we don’t want to learn something during Neutron’s first flight that could be learned on the ground during the testing phase. “At the end of the day, Neutron will fly when we’re very confident it’s ready and we’re not going to break the mold of the Rocket Lab magic.” A slide from Rocket Lab’s Q3 earnings presentation shown during an investor’s earning call on Nov. 10, 2025. Graphic: Rocket Lab While the 141-foot-tall (43 m) two-stage rocket is designed to be reusable, part of a successful first flight of Neutron won’t be proving reuse of the booster. Rocket Lab is still developing its 400-foot-long landing barge called ‘Return on Investment’, which Beck said should be ready to support Neutron’s second launch. Beck said that the methane and liquid oxygen powered Archimedes engines, which will power the liftoff of Neutron with 1.5 million pounds of thrust, continue to go through validation and qualification. He said they’re using two test stands at NASA’s Stennis Space Center in Mississippi at a 20-7 rate: 20 hours a day, seven days a week. “The only way you can get through years of qualification that are always expected for an engine program is to squeeze years of hours into months,” Beck said. “As you can imagine, no weekends or evenings are left on the table at the Stennis test facility.” When asked by Michael Leshock of KeyBanc Capital Markets about how close they were to a finalized design of the Archimedes engine, Beck said the “engine design’s pretty stable at this point,” adding that Rocket Lab had “met all the performance criteria.” “With ascent there’s one set of environments and with descent, there’s an entirely new set of environments and much more challenging environments because your propellant will warm and lower pressures,” Beck said. “The vast, vast majority of all the components for Flight 1 engines are either complete or in some kind of form of build. “We’re iterating on the engine for sure, but the production machine is stood up and ready to support.” Archimedes full mission duration hot fire. Enjoy. pic.twitter.com/jF3I3zDM9G — Rocket Lab (@RocketLab) August 7, 2025 Leshock also asked whether the original budget prediction of Neutron was holding in the $250 million to $300 million range, Adam Spice, the Chief Financial Officer at Rocket Lab, said that the push of first launch from the end of 2025 into 2026 means that the company likely will have spent about $360 million on the program by the end of 2025. “As Pete mentioned, it’s about a $15 million impact on the human capital side of things per quarter,” Spice said. “When the program delays, you end up obviously incurring an extension of that staffing-related expenses to the program.” Spice said Rocket Lab expects to reach the peak of their quarterly expenditures on the Neutron program by the end of the fourth quarter of 2025. In another part of the earnings call, Spice said the first launch of Neutron won’t include a customer on board, but said they do have “two, fully priced missions in the backlog right now.” “For Neutron, there’s a third contract admission… made to be a rideshare,” Spice said. “We don’t have that in the backlog because we don’t do that until we’ve actually added the payloads into the manifest.” Spice reported that Rocket Lab’s backlog at the end of the third quarter was $1.1 billion with 47 percent coming from the launch side of the company versus their space systems business, which provides both spacecraft (like the two ESCAPADE satellites awaiting launch in Florida) and spacecraft components to customers. ﻿",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "1b0e7ef39148d83d7b896a11aa5ac1ac",
+        "rep_id": "1b0e7ef39148d83d7b896a11aa5ac1ac",
+        "member_ids": [
+            "1b0e7ef39148d83d7b896a11aa5ac1ac"
+        ],
+        "rep_title": "Florida annual launch record broken with late-night Starlink flight",
+        "sources": [
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-10T20:00:00+00:00",
+        "articles": [
+            {
+                "id": "1b0e7ef39148d83d7b896a11aa5ac1ac",
+                "title": "Florida annual launch record broken with late-night Starlink flight",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/10/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-3/",
+                "timestamp": "2025-11-10T20:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/10/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-3/"
+        ],
+        "rep_text": "A long-exposure shot of SpaceX’s Falcon 9 rocket blasting off from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station on Nov. 10, 2025. Image: John Pisani / Spaceflight Now Update Nov. 10, 11:30 p.m. EST (04130UTC): SpaceX confirms deployment of the 29 Starlink satellites. The busiest spaceport in the world broke another record on Monday night. SpaceX’s Falcon 9 rocket was the 94th launch for an orbital class rocket from Florida, surpassing the total achieved in 2024. The total was a combination of Falcon 9 rockets as well as Atlas 5 and Vulcan rockets from United Launch Alliance and one New Glenn flight from Blue Origin. The Monday night mission that tipped the scales into the record books was Starlink 6-87, which added another 29 broadband internet satellites to the company’s mega-constellation in low Earth orbit. SpaceX accomplished liftoff from pad 40 at Cape Canaveral Space Force Station at 10:21 p.m. EST (0321 UTC). The launch was originally scheduled about five hours earlier in the day, but it was pushed later because the Federal Aviation Administration is limiting commercial launches to between the hours of 10 p.m. and 6 a.m., due to the shortage of air traffic controllers during the government shutdown. Launches add significantly to the workload of air traffic controllers due to the need to divert flights away from the launch danger area. The 45th Weather Squadron forecast a 60 percent chance for favorable weather during the launch window thanks to a “strong cold front” moving across the state on Monday. Meteorologists citied concerns from strong winds at liftoff as well as upper-level wind shear and somewhat questionable weather in the booster recovery zone near the Bahamas. “The front itself will cross the region Monday morning, ushering in a blast of strong northwesterly winds and chilly temps that will linger through at least the first half of Tuesday,” launch weather officers wrote. “As a result, the main concern for the primary launch window will be liftoff winds.” SpaceX used B1096 for the Starlink 6-87 mission, one of the newer Falcon 9 boosters in its fleet. Monday’s launch was its third flight following KF-01 for Amazon’s Project Kuiper and NASA’s IMAP rideshare mission earlier this year. Less than eight minutes after liftoff, B1096 performed an autonomous landing attempt on the drone ship, ‘Just Read the Instructions’. This was the 141st landing on this vessel and the 532nd booster landing to date. Records are made to be broken For more than half a decade, Florida’s spaceport, a combination of both NASA’s Kennedy Space Center and Cape Canaveral Space Force Station, have been steadily increasing the number of orbital launches, thanks in large part to a yearly ramp up in flights from SpaceX. Between its two Falcon launch pads, Launch Complex 39A and Space Launch Complex 40, SpaceX will have launched 88 times after flying the Starlink 6-87 mission, about 95 percent of the launches from Florida’s Space Coast. Falcon launch #130 for 2025. The rolling 365 launch total is 166 launches! Notable records from this morning: * Fastest launch to launch from the same American Launch Pad at 55 Hrs, 29 minutes and 9 seconds * Fastest TE roll in to hangar for booster integration to launch at 12… https://t.co/kgrHZ7yXD5 — Kiko Dontchev (@TurkeyBeaver) October 16, 2025 The impact of some of those launches was reflected in October’s monthly CEO report delivered by Capt. John Murray, to the Port Canaveral Commission on Oct. 22. He noted that for all of Fiscal Year 2025 (Oct. 1, 2024 – Sept. 30, 2025) that there were 90 boosters brought into port along with 194 payload fairings, which he described as “quite significant.” Port Canaveral doesn’t explicitly break down its listing of “Space Component Recoveries” in its report. Presumably, these numbers reflect just SpaceX components, but Spaceflight Now did reach out to Port Canaveral to seek clarification. The ramp up in launch cadence required both increased agility on the part of launch operators, like SpaceX and United Launch Alliance as well as from those who manage the Eastern Range. Ahead of the Aug. 4, 2022, launches of both the SBIRS GEO-6 and the Korea Pathfinder Lunar Orbiter by ULA and SpaceX respectively, Spaceflight Now Reporter Will Robinson-Smith spoke with members of the 1st Range Ops Squadron (1 ROPS) in his capacity as a reporter for Spectrum News 13 at the time. Back then, a double launch day was something that hadn’t been achieved in Florida since the 1960s. U.S. Space Force 2nd Lt. Christian Jackson said that a ramped up launch cadence was “something that we train for every week” in preparation for a more airport-like flight environment. “Just a few years ago, they were launching maybe 12 rockets in a year. We’ve got about 60 plus on the manifest to finish out this year and there are hopes of possibly doing up to 100 launches next year,” Jackson said in 2022. “So, if we want to reach those numbers, we’re definitely going to get to that point where we’re launching over one in a day.” There have been many double launch days since then, with the most recent being September 25, which saw the launches of the Starlink 10-15 mission on a Falcon 9 rocket and the Kuiper Atlas 03 mission on an Atlas 5 551 rocket. Leadership at the Cape has been working to increase payload processing facility capacity to allow for further ramp up of missions, with facilities like one dedicated to Amazon’s Kuiper satellites coming online earlier this year. Orbital launches by year from Cape Canaveral, including failures. Graphic: Spaceflight Now.",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "950b23f481240a6894d3cceaa5b75ff2",
+        "rep_id": "950b23f481240a6894d3cceaa5b75ff2",
+        "member_ids": [
+            "950b23f481240a6894d3cceaa5b75ff2"
+        ],
+        "rep_title": "Poor weather prevents Blue Origin from launching NASA’s Mars-bound ESCAPADE mission",
+        "sources": [
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-08T18:53:03+00:00",
+        "articles": [
+            {
+                "id": "950b23f481240a6894d3cceaa5b75ff2",
+                "title": "Poor weather prevents Blue Origin from launching NASA’s Mars-bound ESCAPADE mission",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/08/live-coverage-blue-origin-to-launch-nasas-mars-bound-escapade-mission/",
+                "timestamp": "2025-11-08T18:53:03+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/08/live-coverage-blue-origin-to-launch-nasas-mars-bound-escapade-mission/"
+        ],
+        "rep_text": "Blue Origin scrubbed a launch attempt of the NG-2 mission on Nov. 9, 2025, due to cumulus clouds in the area. Image: Spaceflight Now Update Nov. 9, 5 p.m. EST (2200 UTC): Blue Origin scrubbed the mission and is assessing its next launch opportunity. Blue Origin’s second New Glenn rocket will have to wait at least another day before it’s able to take flight. A launch attempt on Sunday, Nov. 9, of a pair of Mars-bound satellites for NASA along with a communications demonstration payload for Viasat was squashed due to the presence of cumulus clouds in the area of the pad. Launch teams were also working a ground systems issue heading into the launch readiness poll conducted at T-17 minutes as well as a cruise ship that was in the keep out zone. Blue Origin is assessing its next available launch opportunity. The company will also need to gain permission from the Federal Aviation Administration to launch a daylight flight, given the new commercial launch curfew put into effect beginning Nov. 10 in connection to the ongoing federal shutdown. When it’s able to launch, the 321-foot-tall (98 m) rocket will fly on a south-easterly trajectory upon leaving Launch Complex 36 at Cape Canaveral Space Force Station. The 45th Weather Squadron forecast a 65 percent chance for favorable weather at the opening Sunday’s launch opportunity, but that slides to 55 percent as time goes on. Meteorologists cited concerns with cumulus clouds, lightning and anvil clouds, noting that a cold front will be in place by Sunday. “As the front approaches the region from the northwest, there will be enough moisture in place for showers to form out ahead of and along the front,” launch weather officers wrote. “A few strong to severe thunderstorms may develop Sunday afternoon, with a small chance of a thunderstorm wind gust near 80 fps.” The 24-hour backup opportunity on Monday, Nov. 10, showed a 75 percent chance for favorable conditions at liftoff, but noted that the booster recovery risk was “moderate” on a scale of low-moderate-high. Like with the first New Glenn launch in January 2025, Blue Origin will attempt to land its first stage booster on its autonomous barge, Jacklyn. The 188-foot-tall (57.4 m) booster named ‘Never Tell Me the Odds’ will progress from using three to then one BE-4 engine to perform the final landing burn. Blue Origin previously said it plans to reuse this booster on its third flight if all goes well with this recovery effort. The company’s CEO, Dave Limp, said in a social media post on Wednesday that all will be well even if they’re unable to recover this booster. “We’ve got several more New Glenn boosters already in production,” Limp wrote. Blue Origin transported its New Glenn first stage booster, ‘Never Tell Me the Odds,’ from its facilities at Rocket Park to Launch Complex 36 at Cape Canaveral Space Force Station on Oct. 8, 2025. Image: John Pisani / Spaceflight Now The New Glenn 2 (NG-2) mission will be the first time that Blue Origin’s orbital class rocket will carry customer payloads to space. The two ESCAPADE spacecraft — named ‘Blue’ and ‘Gold’ — were encapsulated inside the rocket’s 23-foot-diameter (7 m) payload fairings on Oct. 31. Blue Origin will perform two burns of the BE-3U engines on the rocket’s upper stage before the twin satellites deploy about 33 minutes after liftoff. The Viasat tech demo will activate about five minutes after the second ESCAPADE satellite, Gold, is released. Blue Origin’s New Glenn rocket designed for the NG-2 mission is pictured at sunset at Launch Complex 36, the evening of Nov. 8, 2025. The rocket will carry NASA’s ESCAPADE mission along with a payload demonstration for Viasat. Image: Adam Bernstein / Spaceflight Now The launch was coordinated by NASA’s Launch Services Program, based at the Kennedy Space Center. The rocket was assigned through the agency’s Venture-Class Acquisition of Dedicated and Rideshare (VADR) launch services contract. The overall contract has a maximum total value of $300 million over a five-year ordering period. When it was assigned to Blue Origin with its New Glenn rocket, the ESCAPADE mission was scheduled to launch in late 2024 on the inaugural flight of the rocket. However, because New Glenn wasn’t ready to fly in time, the mission was moved to the rocket’s second launch. An artist’s rendering of the ESCAPADE mission patch. Graphic: University of California, Berkeley Mission to Mars NASA’s ESCAPADE’s science mission is led by NASA’s Goddard Space Flight Center and the University of California, Berkeley, Space Science Laboratory. The mission is being done in collaboration with Rocket Lab, Advanced Space, Embry-Riddle Aeronautical University and Northern Arizona University. The two spacecraft will work in tandem to better understand Mars’ magnetosphere and learn how its affected by space weather. That give researchers a better grasp on the climatological history of the Red Planet and how it lost its atmosphere. “Really excited to see (NASA’s) Heliophysics’ first mission to Mars and being able to deliver that space weather information that will hopefully help as humanity expands out into the cosmos,” Joseph Westlake, NASA Heliophysics Director, told Spaceflight Now in in an interview earlier this year. What began as the Mars Ion and Sputtering Escape Network (MISEN) concept proposal in October 2016 evolved in to ESCAPADE by July 2018. In June 2019, NASA picked it as one of three finalists as part of the agency’s Small, Innovative Missions for Planetary Exploration or SIMPLEx for short. These types of missions are designed with a higher risk tolerance, a shorter timeline and a lower budget. Rocket Lab built EscaPADE twin spacecraft fully assembled and ready for shipping at the company’s Spacecraft Production Complex and headquarters in Long Beach, California, before shipping to the launch site at Cape Canaveral, Florida. Image: Rocket Lab “We had three-and-a-half years to make two satellites to go to Mars. A typical timeline for a Mars mission is a decade,” said Christophe Mandy, during an August 2024 media tour of Rocket Lab’s Long Beach, California, facilities. “Big missions, like [Mars Sample Return], MSR started in 2002, so it’s already been over two decades. That’s the normal pace for an interplanetary mission,” Mandy said. “We had three-and-a-half years for everything.” Blue and Gold were built on Rocket Lab’s Explorer satellite bus, characterized by the company as a “high delta-V spacecraft with large propellant tanks, deep space capable avionics, and ranging transponders.” The Rocket Lab-built spacecraft for NASA’s Escape and Plasma Acceleration and Dynamics Explorers (ESCAPADE) mission are encapsulated in the 7 meter payload fairings for Blue Origin’s New Glenn rocket. Image: Blue Origin “The Explorer product line has a very, very high mass fraction that is fuel,” Mandy said. “In the case of ESCAPADE, it’s almost 70 percent, which is an enormous number. So, if you are the type of mission that needs a lot of delta-V, you’ll probably go for Explorer.” The spacecraft will linger in Earth orbit for about a year before beginning a 10-month cruise to Mars. This altered trajectory, created by Advanced Space, was a result the launch delay of more than a year. The Mars orbit insertion burn is anticipated in September 2027 with checkouts and orbit refining to follow. The science mission is scheduled to last from June 2028 until May 2029. Long Beach Cape Canaveral MARS Our ESCAPADE spacecraft have already travelled across the country and soon will be on their next – and much longer – journey to Mars. Our twin spacecraft have a 43-month mission ahead of them, with 11 months spent studying Mars’… pic.twitter.com/GTPK3ah3as — Rocket Lab (@RocketLab) November 6, 2025",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "8eba6121fbe5b5440c17f79693419ec7",
+        "rep_id": "8eba6121fbe5b5440c17f79693419ec7",
+        "member_ids": [
+            "8eba6121fbe5b5440c17f79693419ec7"
+        ],
+        "rep_title": "SpaceX launches Sunday Starlink mission following Saturday scrub",
+        "sources": [
+            "SpaceflightNow"
+        ],
+        "timestamp": "2025-11-07T19:59:30+00:00",
+        "articles": [
+            {
+                "id": "8eba6121fbe5b5440c17f79693419ec7",
+                "title": "SpaceX launches Sunday Starlink mission following Saturday scrub",
+                "source": "SpaceflightNow",
+                "url": "https://spaceflightnow.com/2025/11/07/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-center/",
+                "timestamp": "2025-11-07T19:59:30+00:00"
+            }
+        ],
+        "urls": [
+            "https://spaceflightnow.com/2025/11/07/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-center/"
+        ],
+        "rep_text": "A long-exposure shot of SpaceX’s Falcon 9 rocket as it soars away from Launch Complex 39A at NASA’s Kennedy Space Center to begin the Starlink 10-51 mission on Nov. 9, 2025. Image: Michael Cain / Spaceflight Now Update Nov. 9, 3:50 a.m. EST (0850 UTC): SpaceX landed its booster on the drone ship. Update Nov. 8, 7:30 a.m. EST (1230 UTC): SpaceX scrubbed the launch due to poor booster recovery weather. Following a last minute scrub Saturday morning, SpaceX launched a batch of Starlink satellites in the predawn hours of Sunday morning. The launch came as the Federal Aviation Administration readies a rollout of commercial launch restrictions for U.S. airspace. The company said poor weather in the booster recovery zone caused them stand down from Saturday’s launch opportunity, but conditions were enough improved to support Sunday’s launch. The Starlink 10-51 mission lifted off on a Falcon 9 rocket from Launch Complex 39A at NASA’s Kennedy Space Center at 3:10 a.m. EST (0810 UTC). The rocket flew on a north-easterly trajectory upon leaving Florida’s Space Coast. ﻿ The 45th Weather Squadron forecast a 95 percent chance for favorable weather at liftoff on Sunday, citing a small chance for interference from cumulus clouds. “A low-pressure system will begin to develop over the Midwest and track to the northeast, dragging a cold front into the Florida panhandle on Sunday, with rounds of prefrontal showers starting as early as Saturday afternoon,” launch weather officers wrote. “For the launch window early Sunday morning, weather appears quiet ahead of the incoming front with only a distant chance of a Cumulus Cloud Rule violation, though winds at the recovery site are likely to be elevated due to a tightening pressure gradient on the east side of the Carolina low.” SpaceX launched the mission using the Falcon 9 booster with the tail number B1069, which made its 28th flight. Its previous missions included CRS-24, OneWeb Launch #15 and Eutelsat Hotbird 13F. Nearly 8.5 minutes after liftoff, B1069 performed an autonomous landing on the drone ship, ‘A Shortfall of Gravitas’, positioned in the Atlantic Ocean off the coast of South Carolina. This was the 131st booster landing on this vessel and the 531st booster landing to date. SpaceX intends to deploy the 29 Starlink V2 Mini Optimized satellites from the rocket’s upper stage a little more than an hour after liftoff. Liftoff of SpaceX’s Falcon 9 rocket as it soars away from Launch Complex 39A at NASA’s Kennedy Space Center to begin the Starlink 10-51 mission on Nov. 9, 2025. Image: Michael Cain / Spaceflight Now Curfew coming The mission came days in advance of a new, emergency directive issued by the FAA on Thursday that restricts commercial space launches and reentries sanctioned by the FAA to take place between 10 p.m. and 6 a.m. local time beginning at 6 a.m. EST on Nov. 10. In the face of the ongoing government shutdown, U.S. Transportation Secretary Sean Duffy, who is also serving as NASA’s acting administrator, also issued a “temporary 10 percent reduction in flights at 40 high traffic airports across the country.” Among those impacted airports are Orlando International Airport and Los Angeles International Airport, the two closest major airports to both Cape Canaveral and Vandenberg respectively. The launch curfew will have varying degrees of impact, depending on the interpretation of “commercial launch”. SpaceX announced five more Starlink missions between Nov. 10 and Nov. 19 and is also planning to launch the Transporter-15 mission on Nov. 11. Following a scrub Thursday night, United Launch Alliance’s next attempt to launch the ViaSat-3 F2 mission will also fall after the FAA’s launch restrictions go into effect. SpaceX does have some latitude with shuffling its launch times for its Starlink mission to fit the FAA’s new mandate. However, missions like Transporter-15 that seek to launch payloads into a Sun-synchronous orbit may need to seek special exemption. Spaceflight Now also reached out to the FAA for comment, but received the automated response: “Due to a lapse in funding, the FAA is not responding to routine media inquiries.” Rocket Lab for its part said that it shouldn’t face much impact from the decision. “We can confirm launches from [Launch Complex 1] in New Zealand are unaffected by the restrictions, as these launches do not operate in U.S. airspace,” the company said. “We also expect minimal impact to launches from LC-2 in Virginia.” A long-exposure shot of SpaceX’s Falcon 9 rocket as it soars away from Launch Complex 39A at NASA’s Kennedy Space Center to begin the Starlink 10-51 mission on Nov. 9, 2025. Image: John Pisani / Spaceflight Now",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "0fbd1e808839943795a5ff7641bb293d",
+        "rep_id": "0fbd1e808839943795a5ff7641bb293d",
+        "member_ids": [
+            "0fbd1e808839943795a5ff7641bb293d"
+        ],
+        "rep_title": "Evidence for the Keplerian orbit of a close companion around a giant star",
+        "sources": [
+            "Nature Astronomy"
+        ],
+        "timestamp": "2025-11-13T00:00:00+00:00",
+        "articles": [
+            {
+                "id": "0fbd1e808839943795a5ff7641bb293d",
+                "title": "Evidence for the Keplerian orbit of a close companion around a giant star",
+                "source": "Nature Astronomy",
+                "url": "https://www.nature.com/articles/s41550-025-02697-2",
+                "timestamp": "2025-11-13T00:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://www.nature.com/articles/s41550-025-02697-2"
+        ],
+        "rep_text": "Nature Astronomy, Published online: 13 November 2025; doi:10.1038/s41550-025-02697-2 How do low-mass binaries age? Astronomers have constrained a tight, circular orbit of a close-in companion around a dying giant star, raising new questions about how tidal forces shape binary orbits in the final phases of stellar evolution.",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "62ca45d1090e2837bda4389c59875305",
+        "rep_id": "62ca45d1090e2837bda4389c59875305",
+        "member_ids": [
+            "62ca45d1090e2837bda4389c59875305"
+        ],
+        "rep_title": "Warm and cool components found in an eruption from a solar analogue",
+        "sources": [
+            "Nature Astronomy"
+        ],
+        "timestamp": "2025-11-07T00:00:00+00:00",
+        "articles": [
+            {
+                "id": "62ca45d1090e2837bda4389c59875305",
+                "title": "Warm and cool components found in an eruption from a solar analogue",
+                "source": "Nature Astronomy",
+                "url": "https://www.nature.com/articles/s41550-025-02707-3",
+                "timestamp": "2025-11-07T00:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://www.nature.com/articles/s41550-025-02707-3"
+        ],
+        "rep_text": "Nature Astronomy, Published online: 07 November 2025; doi:10.1038/s41550-025-02707-3 Coordinated observations between the Hubble Space Telescope and ground-based telescopes of a star that is an analogue of the young Sun have uncovered multi-temperature signatures of stellar coronal mass ejections. The detection of fast–warm and slow–cool plasma components suggests a solar-like but more complex picture of stellar eruptions, with impact on the planets around young stars.",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    },
+    {
+        "cluster_id": "13ab78f0b8dd06c940021c12dd0377a9",
+        "rep_id": "13ab78f0b8dd06c940021c12dd0377a9",
+        "member_ids": [
+            "13ab78f0b8dd06c940021c12dd0377a9"
+        ],
+        "rep_title": "An extremely luminous flare recorded from a supermassive black hole",
+        "sources": [
+            "Nature Astronomy"
+        ],
+        "timestamp": "2025-11-04T00:00:00+00:00",
+        "articles": [
+            {
+                "id": "13ab78f0b8dd06c940021c12dd0377a9",
+                "title": "An extremely luminous flare recorded from a supermassive black hole",
+                "source": "Nature Astronomy",
+                "url": "https://www.nature.com/articles/s41550-025-02699-0",
+                "timestamp": "2025-11-04T00:00:00+00:00"
+            }
+        ],
+        "urls": [
+            "https://www.nature.com/articles/s41550-025-02699-0"
+        ],
+        "rep_text": "Nature Astronomy, Published online: 04 November 2025; doi:10.1038/s41550-025-02699-0 An extreme flare has been seen from a supermassive black hole at redshift z = 2.6. First detected in 2018, it is 30 times brighter than similar events. The most likely cause is the shredding of a star of 30 solar masses or more.",
+        "summary": "",
+        "topics": [
+            ""
+        ],
+        "because": "",
+        "score": 0.0,
+        "score_components": {}
+    }
+]

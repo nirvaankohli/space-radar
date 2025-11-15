@@ -7,17 +7,9 @@ from dateutil import parser as dateparser
 import json
 import datetime
 
-ROOT_DIR = Path(__file__).parent.parent.parent.parent
+ROOT_DIR = Path(__file__).parent.parent.parent
 LIB_DIR = ROOT_DIR / "data" / "agents"
 LIB_NAME = "process_yml"
-
-
-"""
-print(f"ROOT_DIR: {ROOT_DIR}")
-print(f"LIB_DIR: {LIB_DIR}")
-print(f"LIB_NAME: {LIB_NAME}")
-print(f"ALL TOGETHER: {LIB_DIR / LIB_NAME}")
-"""
 
 spec = importlib.util.spec_from_file_location(LIB_NAME, LIB_DIR / f"{LIB_NAME}.py")
 process_yml = importlib.util.module_from_spec(spec)
@@ -135,15 +127,43 @@ class cleaner:
 
             return None
 
+    def get_rid_of_img_tags(self, text: str) -> str:
+
+        if not text:
+            return ""
+
+        text = re.sub(r"<img[^>]*>", "", text, flags=re.IGNORECASE)
+
+        return text
+
     def sanitize_text(self, text: str) -> str:
 
         if not text:
-
             return ""
 
         text = re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F]+", " ", text)
+        text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
+        text = self.get_rid_of_img_tags(text)
+        try:
+            import processing as _processing
+        except Exception:
+            try:
+                spec_proc = importlib.util.spec_from_file_location(
+                    "processing", Path(__file__).parent / "processing.py"
+                )
+                _processing = importlib.util.module_from_spec(spec_proc)
+                spec_proc.loader.exec_module(_processing)
+            except Exception:
+                _processing = None
 
-        # get rid of things that are common but not useful to the interpretation of the artacle
+        if _processing is not None:
+            try:
+                proc = _processing.TextProcessor(text)
+                cleaned = proc.clean_text()
+                if cleaned:
+                    text = cleaned
+            except Exception:
+                pass
 
         cut_patterns = [
             r"Credits?:",
@@ -158,11 +178,8 @@ class cleaner:
         ]
 
         for pat in cut_patterns:
-
             idx = text.lower().rfind(pat.lower())
-
             if idx != -1 and idx > len(text) - 800:
-
                 text = text[:idx]
                 break
 
@@ -196,7 +213,6 @@ class cleaner:
 
         most = c.most_common(1)[0][1] if sentences else 0
 
-        # More lenient threshold since we're looking at sentences
         if most / max(1, len(sentences)) > 0.6:
             return True
 
@@ -250,7 +266,6 @@ class cleaner:
             ts_c = self.parse_ts(ts_raw)
             text_s = self.sanitize_text(text)
 
-            # validate presence
             if not title_c:
                 continue
             if len(title_c) < 12:
@@ -371,9 +386,13 @@ if __name__ == "__main__":
     else:
         key = "id"
 
-    # Get existing ids
+    og_data.setdefault(key, [])
 
     existing_ids_before = set(og_data.get(key, []))
+
+    if not index_file.exists():
+        with open(index_file, "w", encoding="utf-8") as f:
+            json.dump(og_data, f, ensure_ascii=False, indent=2)
 
     # find new articles (not in original index)
     new_articles = []

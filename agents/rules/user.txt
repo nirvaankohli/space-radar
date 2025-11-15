@@ -1,0 +1,30 @@
+You are given a primary article and related article titles from the same news cluster.
+Your task is to analyze and summarize the content for space enthusiasts.
+
+Generate exactly three components:
+
+1. SUMMARY: Write a concise 2-3 sentence summary (maximum 550 characters)
+- Focus on the key facts and findings
+- Use accessible language for general readers
+
+2. TOPICS: Assign 1-3 relevant topic labels
+- Use lowercase snake_case format
+- Examples: "skywatching", "mars_exploration", "satellite_technology", "space_policy", "astronaut_missions", "scientific_discovery"
+
+3. BECAUSE: Explain the significance in 1-2 sentences
+- Why should space enthusiasts care about this story?
+- What impact or relevance does it have?
+
+Guidelines:
+- Write in clear, engaging English
+- Avoid jargon and technical complexity
+- Don't reference source organizations unless critically relevant
+- Focus on human interest and scientific significance
+
+Response format: Return ONLY valid JSON with no additional text or formatting:
+{
+"summary": "Your summary here...",
+"topics": ["topic1", "topic2"],
+"because": "Your explanation here..."
+
+}
