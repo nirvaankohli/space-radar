@@ -18,11 +18,17 @@ def run_script(script_path, description):
     start = time.time()
 
     try:
+        # Use the virtual environment Python executable
+        venv_python = ROOT_DIR / ".venv" / "Scripts" / "python.exe"
+        if venv_python.exists():
+            python_executable = str(venv_python)
+        else:
+            python_executable = sys.executable
+        print(python_executable, script_path)
         result = subprocess.run(
-            [sys.executable, str(script_path)],
-            capture_output=True,
-            text=True,
+            [python_executable, str(script_path)],
             cwd=ROOT_DIR,
+            timeout=3000,  # 5 minute timeout
         )
 
         if result.returncode == 0:
@@ -35,6 +41,9 @@ def run_script(script_path, description):
             print("STDERR:", result.stderr)
             return False
 
+    except subprocess.TimeoutExpired:
+        print(f"✗ {description} timed out after 5 minutes")
+        return False
     except Exception as e:
         print(f"✗ Error running {description}: {e}")
         return False
@@ -98,7 +107,7 @@ def run_pipeline():
     if not run_script(LLM_SCRIPT, "LLM Processing"):
         print("Pipeline failed at LLM processing step")
         return 1
-    
+
     return 0
 
 
@@ -118,6 +127,8 @@ def main():
         print("Pipeline failed at building step")
         return 1
 
+    print(LLM_SCRIPT)
+
     if not run_script(LLM_SCRIPT, "LLM Processing"):
         print("Pipeline failed at LLM processing step")
         return 1
@@ -133,4 +144,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

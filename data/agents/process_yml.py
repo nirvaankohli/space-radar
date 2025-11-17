@@ -118,7 +118,7 @@ class processer:
                         "text": article.get("text", ""),
                     }
                 )
-
+        print("Total articles fetched:", len(articles))
         return articles
 
 

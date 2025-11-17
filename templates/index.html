@@ -6,14 +6,177 @@
     <title>Space Radar - Latest Space News</title>
     <link
       rel="stylesheet"
-      href="C:\Users\nirva\OneDrive\Projects\space-reader\space-radar\static\index.css"
+      href="{{ url_for('static', filename='index.css') }}"
     />
   </head>
   <body>
-    <h1 id="title">Space Radar</h1>
-    <p>Your daily dose of the latest space news and discoveries.</p>
+    <p class="top-p">
+      Your daily dose of the latest space news and discoveries.
+    </p>
 
-    <main></main>
-    
+    <h1 id="title">SPACE RADAR</h1>
+    <hr class="divider" id="dashed" style="margin-bottom: 0px" />
+
+    <div class="trending-container">
+      <p id="trending-topics">Trending Topics</p>
+      <div class="topics-carousel">
+        {% for topic in trending_topics %}
+        <div class="topic-item">{{ topic }}</div>
+        {% endfor %} {% for topic in trending_topics %}
+        <div class="topic-item">{{ topic }}</div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <hr class="divider" id="dashed" style="margin-top: 0%" />
+
+    <main class="stories-container">
+      {% for story in stories %}
+      <article class="story-card collapsed" onclick="toggleCard(this)">
+        <div class="story-number">{{ loop.index }}</div>
+        <div class="story-main-content">
+          <div class="story-header">
+            <h2 class="story-title">{{ story.rep_title }}</h2>
+            <div class="story-meta">
+              <span class="story-source">{{ story.sources | join(', ') }}</span>
+              <span class="story-date">{{ story.timestamp[:10] }}</span>
+            </div>
+          </div>
+
+          <div class="story-content">
+            <p class="story-summary">{{ story.summary }}</p>
+
+            {% if story.because and story.because.strip() %}
+            <div class="story-reasoning">
+              <strong>Why it matters:</strong> {{ story.because }}
+            </div>
+            {% endif %} {% if story.topics and story.topics[0] %}
+            <div class="story-topics">
+              {% for topic in story.topics %} {% if topic and topic.strip() %}
+              <span class="topic-tag"
+                >{{ topic.replace('_', ' ').title() }}</span
+              >
+              {% endif %} {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+
+          <div class="story-footer">
+            <div class="story-score">
+              <span class="score-label">Impact Score:</span>
+              <span class="score-value">
+                {% if story.score_components and
+                story.score_components.llm_score %} {{
+                "%.3f"|format(story.score_components.llm_score) }} {% else %} {{
+                "%.3f"|format(story.score or 0.0) }} {% endif %}
+              </span>
+            </div>
+
+            <div class="story-links">
+              {% for url in story.urls %}
+              <a
+                href="{{ url }}"
+                target="_blank"
+                class="story-link"
+                onclick="event.stopPropagation()"
+                >Read More</a
+              >
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="expand-indicator">Click to expand</div>
+        </div>
+      </article>
+      {% endfor %}
+    </main>
+
+    <script>
+      function toggleCard(card) {
+        const isCollapsed = card.classList.contains("collapsed");
+        const storyContent = card.querySelector(".story-content");
+        const expandIndicator = card.querySelector(".expand-indicator");
+
+        // Smooth collapse all other cards
+        document.querySelectorAll(".story-card").forEach((c) => {
+          if (c !== card && c.classList.contains("expanded")) {
+            c.style.transition = "all 0.6s cubic-bezier(0.4, 0, 0.1, 1)";
+            c.classList.add("collapsed");
+            c.classList.remove("expanded");
+            c.querySelector(".expand-indicator").textContent =
+              "Click to expand";
+          }
+        });
+
+        // Toggle current card with enhanced smooth animation
+        if (isCollapsed) {
+          // Pre-expansion setup
+          expandIndicator.textContent = "Expanding...";
+          expandIndicator.style.opacity = "0.8";
+
+          // Start expansion animation
+          requestAnimationFrame(() => {
+            card.classList.remove("collapsed");
+            card.classList.add("expanded");
+
+            setTimeout(() => {
+              expandIndicator.textContent = "Click to collapse";
+              expandIndicator.style.opacity = "";
+            }, 400);
+
+            // Enhanced smooth scroll with offset for better positioning
+            setTimeout(() => {
+              const cardTop = card.offsetTop;
+              const offset = 100; // Offset from top for better view
+              window.scrollTo({
+                top: cardTop - offset,
+                behavior: "smooth",
+              });
+            }, 500);
+          });
+        } else {
+          // Collapsing
+          expandIndicator.textContent = "Collapsing...";
+          expandIndicator.style.opacity = "0.6";
+
+          requestAnimationFrame(() => {
+            card.classList.add("collapsed");
+            card.classList.remove("expanded");
+
+            setTimeout(() => {
+              expandIndicator.textContent = "Click to expand";
+              expandIndicator.style.opacity = "";
+            }, 400);
+          });
+        }
+      }
+
+      // Add keyboard navigation
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+          // Collapse all cards on Escape
+          document.querySelectorAll(".story-card").forEach((c) => {
+            c.classList.add("collapsed");
+            c.classList.remove("expanded");
+            c.querySelector(".expand-indicator").textContent =
+              "Click to expand";
+          });
+        }
+      });
+
+      // Pause carousel on hover anywhere on the trending container
+      const trendingContainer = document.querySelector(".trending-container");
+      const carousel = document.querySelector(".topics-carousel");
+
+      if (trendingContainer && carousel) {
+        trendingContainer.addEventListener("mouseenter", () => {
+          carousel.style.animationPlayState = "paused";
+        });
+
+        trendingContainer.addEventListener("mouseleave", () => {
+          carousel.style.animationPlayState = "running";
+        });
+      }
+    </script>
   </body>
 </html>

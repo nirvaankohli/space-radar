@@ -10,7 +10,6 @@ DATA_DIR = ROOT_DIR / "data"
 DB_DIR = DATA_DIR / "db"
 
 
-
 class get_rules:
 
     def __init__(self, rule_name: str):
@@ -92,25 +91,57 @@ class LLMClient:
             "temperature": 0.7,
         }
 
-        try:
-            r = requests.post(url=self.api_url, json=data, headers=headers, timeout=120)
-
-            if r.status_code == 200:
-                return r.json()
-            else:
-                print(f"API Error - Status: {r.status_code}")
-                print(f"Response: {r.text}")
-                raise Exception(
-                    f"LLM request failed with status {r.status_code}: {r.text}"
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                timeout = 60 if attempt == 0 else 90  # Increase timeout on retry
+                r = requests.post(
+                    url=self.api_url, json=data, headers=headers, timeout=timeout
                 )
 
-        except requests.exceptions.RequestException as e:
-            print(f"Request failed: {e}")
-            raise Exception(f"Request error: {e}")
+                if r.status_code == 200:
+                    return r.json()
+                elif r.status_code == 429:  # Rate limit
+                    if attempt < max_retries - 1:
+                        import time
+
+                        wait_time = (attempt + 1) * 2
+                        print(
+                            f"Rate limited, waiting {wait_time} seconds before retry..."
+                        )
+                        time.sleep(wait_time)
+                        continue
+                else:
+                    print(f"API Error - Status: {r.status_code}")
+                    print(f"Response: {r.text}")
+                    if attempt < max_retries - 1:
+                        print(f"Retrying attempt {attempt + 2}/{max_retries}...")
+                        continue
+                    raise Exception(
+                        f"LLM request failed with status {r.status_code}: {r.text}"
+                    )
+
+            except requests.exceptions.Timeout:
+                if attempt < max_retries - 1:
+                    print(
+                        f"API request timed out after {timeout} seconds. Retrying attempt {attempt + 2}/{max_retries}..."
+                    )
+                    continue
+                print(f"API request timed out after {timeout} seconds on final attempt")
+                raise Exception("API request timeout")
+            except requests.exceptions.RequestException as e:
+                if attempt < max_retries - 1:
+                    print(
+                        f"Request failed: {e}. Retrying attempt {attempt + 2}/{max_retries}..."
+                    )
+                    continue
+                print(f"Request failed: {e}")
+                raise Exception(f"Request error: {e}")
+
+        raise Exception("All retry attempts failed")
 
 
 if __name__ == "__main__":
-
 
     from pathlib import Path
 

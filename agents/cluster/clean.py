@@ -166,45 +166,36 @@ class cleaner:
                 pass
 
         cut_patterns = [
-            r"Credits?:",
-            r"Contact:",
-            r"Subscribe",
-            r"Sign in to",
             r"All rights reserved",
-            r"Read more",
-            r"TL;DR",
-            r"Follow us on",
-            r"Socials",
         ]
 
         for pat in cut_patterns:
             idx = text.lower().rfind(pat.lower())
-            if idx != -1 and idx > len(text) - 800:
+            if idx != -1 and idx > len(text) - 200:
                 text = text[:idx]
                 break
 
         text = re.sub(r"\s+", " ", text).strip()
 
-        if len(text) > 10000:
-            text = text[:10000]
+        if len(text) > 15000:
+            text = text[:15000]
 
         return text
 
     def is_boilerplate(self, text: str) -> bool:
 
-        if not text or len(text.strip()) < 100:
+        if not text or len(text.strip()) < 50:
             return True
 
-        # Split on sentences rather than lines since sanitize_text removes newlines
         import re
 
         sentences = [
             s.strip()
             for s in re.split(r"[.!?]+", text)
-            if s.strip() and len(s.strip()) > 10
+            if s.strip() and len(s.strip()) > 5
         ]
 
-        if not sentences or len(sentences) < 3:
+        if not sentences or len(sentences) < 2:
             return True
 
         from collections import Counter
@@ -213,17 +204,13 @@ class cleaner:
 
         most = c.most_common(1)[0][1] if sentences else 0
 
-        if most / max(1, len(sentences)) > 0.6:
+        if most / max(1, len(sentences)) > 0.8:
             return True
 
         markers = [
-            "share details",
             "-end-",
-            "click here",
-            "continue reading",
-            "read more",
-            "subscribe",
-            "follow us",
+            "this is a test article",
+            "lorem ipsum",
         ]
 
         text_lower = text.lower()
@@ -268,9 +255,9 @@ class cleaner:
 
             if not title_c:
                 continue
-            if len(title_c) < 12:
+            if len(title_c) < 8:
                 continue
-            if len(text_s) < 200:
+            if len(text_s) < 80:
                 continue
             if self.is_boilerplate(text_s):
                 continue
